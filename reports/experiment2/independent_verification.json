@@ -1,0 +1,9 @@
+{
+  "independent_prediction_vote_records_checked": 513,
+  "independent_auc_library": "sklearn.metrics.roc_auc_score",
+  "sklearn_version": "1.1.1",
+  "independent_auc": 0.4859187442289935,
+  "difference_from_report": 5.551115123125783e-17,
+  "all_question_counts_match_experiment1": true,
+  "questions_checked": 500
+}

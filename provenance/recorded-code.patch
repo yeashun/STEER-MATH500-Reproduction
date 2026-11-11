@@ -1,0 +1,256 @@
+--- a/STEER_MATH500/baseline.py
++++ b/STEER_MATH500/baseline.py
+@@ -24,48 +24,7 @@
+     return parser.parse_args()
+ 
+ 
+-def prepare_model(model_name, revision=None):
+-    """先准备原始 safetensors 权重，再分配模型显存；复用已有 Hub 缓存。"""
+-    if Path(model_name).is_dir():
+-        return str(Path(model_name).resolve())
+-
+-    from huggingface_hub import snapshot_download
+-    from huggingface_hub.utils import enable_progress_bars
+-
+-    print(f"[阶段] 检查／下载模型文件：{model_name}；复用已有 Hugging Face 缓存", flush=True)
+-    if revision:
+-        print(f"[阶段] 固定模型 revision：{revision}", flush=True)
+-    # vLLM 内部使用 DisabledTqdm；这里先显式准备文件，显示 Hub 下载进度。
+-    enable_progress_bars()
+-    snapshot = Path(snapshot_download(
+-        repo_id=model_name, revision=revision,
+-        allow_patterns=["*.json", "*.safetensors", "*.model", "*.txt"],
+-        max_workers=2,
+-    ))
+-    if not (snapshot / "config.json").is_file() or not any(snapshot.glob("*.safetensors")):
+-        raise RuntimeError(f"模型快照缺少 config.json 或 safetensors 权重：{snapshot}")
+-    index = snapshot / "model.safetensors.index.json"
+-    if index.is_file():
+-        shards = set(json.loads(index.read_text(encoding="utf-8"))["weight_map"].values())
+-        missing = sorted(name for name in shards if not (snapshot / name).is_file())
+-        if missing:
+-            raise RuntimeError(f"模型快照缺少权重分片：{', '.join(missing)}")
+-    print(f"[阶段] 模型文件准备完成：{snapshot}", flush=True)
+-    return str(snapshot)
+-
+-
+ def run(args):
+-    # 启动器已保存 AutoConfig 的 commit；下载同一 revision，保证来源一致。
+-    metadata_path = args.output / "model_configs.json"
+-    configs = json.loads(metadata_path.read_text(encoding="utf-8")) if metadata_path.is_file() else {}
+-    revision = configs.get(args.model, {}).get("resolved_revision")
+-    prepared_model = prepare_model(args.model, revision)
+-    args.output.mkdir(parents=True, exist_ok=True)
+-    source = {"requested_model": args.model, "requested_revision": revision,
+-              "prepared_model_path": prepared_model}
+-    (args.output / "model_source.json").write_text(json.dumps(source, ensure_ascii=False, indent=2), encoding="utf-8")
+-
+-    # 下载阶段完成之后才导入和初始化 GPU 推理引擎。
+     from vllm import LLM, SamplingParams
+     from external.qwen25_math_evaluation.data_loader import load_data
+     from external.qwen25_math_evaluation.utils import construct_prompt, save_jsonl, set_seed, json_safe
+@@ -82,12 +41,9 @@
+     args.num_shots = 0
+     prompts = [construct_prompt({"question": row["problem"].strip()}, "math500", args)
+                for row in examples]
+-    print(f"[阶段] 数据与 prompt 准备完成：{len(prompts)} 题；开始加载模型 {args.model}", flush=True)
+-    loading_started = time.perf_counter()
+-    model = LLM(model=prepared_model, tensor_parallel_size=1, dtype="bfloat16",
++    model = LLM(model=args.model, tensor_parallel_size=1, dtype="bfloat16",
+                 enforce_eager=True, gpu_memory_utilization=args.gpu_memory_utilization,
+                 max_model_len=args.max_model_len)
+-    print(f"[阶段] 模型加载完成，耗时 {time.perf_counter() - loading_started:.1f} 秒；开始生成", flush=True)
+     started = time.perf_counter()
+     # 与官方单模型 math_eval.py 一样，在 EOS 或完整解答上限处结束。
+     outputs = model.generate(prompts, SamplingParams(
+@@ -97,7 +53,6 @@
+         stop_token_ids=[151645, 151643],
+     ))
+     generation_seconds = time.perf_counter() - started
+-    print(f"[阶段] 生成完成，耗时 {generation_seconds:.1f} 秒", flush=True)
+     if len(outputs) != len(examples):
+         raise RuntimeError("模型输出数与输入题数不一致")
+     samples = []
+@@ -115,13 +70,11 @@
+         })
+     # 推理结果先落盘，即使符号评测失败，也能恢复这次昂贵的生成。
+     save_jsonl(samples, args.output / "samples_unscored.jsonl")
+-    print("[阶段] 未评分结果已保存；开始数学答案评测", flush=True)
+     evaluated, metrics = evaluate("math500", args.prompt_type, samples=samples)
+     save_jsonl(evaluated, args.output / "samples.jsonl")
+     metrics["generation_seconds"] = generation_seconds
+     metrics["evaluation"] = "official_rule_based"
+     (args.output / "metrics.json").write_text(json.dumps(json_safe(metrics), indent=2, allow_nan=False), encoding="utf-8")
+-    print("[阶段] 评分结果与指标已保存", flush=True)
+ 
+ 
+ if __name__ == "__main__":
+--- a/STEER_MATH500/check_env.py
++++ b/STEER_MATH500/check_env.py
+@@ -3,7 +3,6 @@
+ import hashlib
+ import importlib.metadata
+ import json
+-import os
+ from pathlib import Path
+ import platform
+ import sys
+@@ -29,17 +28,6 @@
+     """返回问题清单，让用户一次看到环境缺少什么。"""
+     errors = []
+     print(f"系统: {platform.system()}；Python: {platform.python_version()}")
+-    print(f"CUDA_VISIBLE_DEVICES={os.environ.get('CUDA_VISIBLE_DEVICES', '[未设置：所有 CUDA 设备可见]')}")
+-    print(f"CUDA_DEVICE_ORDER={os.environ.get('CUDA_DEVICE_ORDER', 'FASTEST_FIRST（默认）')}")
+-    # 固定版本的 vLLM 在 NVML 路径中对每个设备标识调用 int()。
+-    # CUDA/PyTorch 支持 UUID，并不代表 vLLM 0.8.5.post1 也支持。
+-    visible_devices = os.environ.get("CUDA_VISIBLE_DEVICES", "")
+-    uuid_selection = any(value.strip().startswith(("GPU-", "MIG-"))
+-                         for value in visible_devices.split(","))
+-    if uuid_selection:
+-        errors.append("vLLM 0.8.5.post1 不兼容 UUID 形式的 CUDA_VISIBLE_DEVICES；"
+-                      "请使用数字索引，例如 GPU 7: export CUDA_DEVICE_ORDER=PCI_BUS_ID，"
+-                      "再执行 export CUDA_VISIBLE_DEVICES=7")
+     if platform.system() != "Linux":
+         errors.append("推理请在 Linux GPU 服务器或已验证 CUDA 的 WSL2 中执行")
+     if sys.version_info[:2] != (3, 10):
+@@ -54,7 +42,7 @@
+                 print(f"[OK] {package}: {actual}")
+         except importlib.metadata.PackageNotFoundError:
+             errors.append(f"未安装 {package}=={expected}")
+-    if platform.system() == "Linux" and not uuid_selection:
++    if platform.system() == "Linux":
+         try:
+             import torch
+             count = torch.cuda.device_count()
+@@ -64,15 +52,8 @@
+                 with torch.cuda.device(index):
+                     if not torch.cuda.is_bf16_supported():
+                         errors.append(f"GPU {index} 不支持本实验的 BF16 设置")
+-                    # 总容量不能代表可用空间；这里包含其他进程造成的占用。
+-                    free_memory, total_memory = torch.cuda.mem_get_info()
+                 prop = torch.cuda.get_device_properties(index)
+-                print(f"GPU {index}: {prop.name}；总显存 {total_memory / 2**30:.1f} GiB；"
+-                      f"当前可用 {free_memory / 2**30:.1f} GiB；"
+-                      f"已用 {(total_memory - free_memory) / 2**30:.1f} GiB")
+-                gpu_uuid = getattr(prop, "uuid", None)
+-                if gpu_uuid is not None:
+-                    print(f"  进程内 cuda:{index} 的 UUID: {gpu_uuid}")
++                print(f"GPU {index}: {prop.name}, {prop.total_memory / 2**30:.1f} GiB")
+         except (ImportError, RuntimeError, OSError) as error:
+             errors.append(f"无法检查 CUDA: {error}")
+     return errors
+--- a/STEER_MATH500/run.py
++++ b/STEER_MATH500/run.py
+@@ -9,7 +9,6 @@
+ import os
+ from pathlib import Path
+ import shlex
+-import signal
+ import subprocess
+ import sys
+ import time
+@@ -90,47 +89,6 @@
+             "--gpu-memory-utilization", str(args.gpu_memory_utilization)]
+ 
+ 
+-def termination_signal(returncode):
+-    """POSIX 子进程的负退出码表示信号；普通异常退出不应被误判为信号。"""
+-    if returncode >= 0:
+-        return None
+-    try:
+-        return signal.Signals(-returncode).name
+-    except ValueError:
+-        return f"signal {-returncode}"
+-
+-
+-def log_tail(path, lines=80, max_bytes=65536):
+-    """只读取日志末尾，避免失败时把整份推理日志刷到终端。"""
+-    with path.open("rb") as log:
+-        size = log.seek(0, os.SEEK_END)
+-        log.seek(max(0, size - max_bytes))
+-        content = log.read().decode("utf-8", errors="replace")
+-    return "\n".join(content.splitlines()[-lines:])
+-
+-
+-def show_and_save(lines, log):
+-    """同一份子进程输出同时显示到终端和写入完整日志。"""
+-    for line in lines:
+-        log.write(line)
+-        log.flush()
+-        print(line, end="", flush=True)
+-
+-
+-def stop_interrupted_child(process, log):
+-    """只停止本次启动的子进程，并收集它退出前的剩余日志。"""
+-    if process.poll() is None:
+-        process.terminate()
+-    try:
+-        remaining, _ = process.communicate(timeout=10)
+-    except subprocess.TimeoutExpired:
+-        process.kill()
+-        remaining, _ = process.communicate()
+-    if remaining:
+-        show_and_save([remaining], log)
+-    return process.returncode
+-
+-
+ def execute(args, method, directory, command):
+     """保存配置、完整日志与成功标记；失败任务不会被汇总成有效结果。"""
+     directory.mkdir(parents=True, exist_ok=False)
+@@ -141,10 +99,6 @@
+                    "evaluation": "official_rule_based", "command": command,
+                    "started_at_utc": datetime.now(timezone.utc).isoformat(),
+                    "cuda_visible_devices": os.environ.get("CUDA_VISIBLE_DEVICES", "all"),
+-                   "cuda_device_order": os.environ.get("CUDA_DEVICE_ORDER", "FASTEST_FIRST"),
+-                   # 记录请求的后端；实际采用的后端仍以 vLLM 初始化日志为准。
+-                   "attention_backend_requested": os.environ.get("VLLM_ATTENTION_BACKEND", "auto"),
+-                   "cuda_launch_blocking": os.environ.get("CUDA_LAUNCH_BLOCKING", "0"),
+                    "budget_semantics": "upstream_steer_prompt_inclusive" if method == "steer" else "baseline_generated_tokens"})
+     (directory / "run_config.json").write_text(json.dumps(config, ensure_ascii=False, indent=2), encoding="utf-8")
+     # 保存已安装环境和选用权重的 revision/文件配置，便于结果追溯。
+@@ -163,34 +117,14 @@
+     env.update({"VLLM_USE_V1": "0", "VLLM_ALLOW_LONG_MAX_MODEL_LEN": "1",
+                 "TOKENIZERS_PARALLELISM": "false", "PYTHONHASHSEED": str(args.seed)})
+     started = time.perf_counter()
+-    interrupted = False
+     print(f"开始 {method}；完整日志: {directory / 'run.log'}", flush=True)
+     with (directory / "run.log").open("w", encoding="utf-8") as log:
+-        # 正常推理不设置超时；只有用户 Ctrl+C 时才停止本次子进程。
+-        with subprocess.Popen(command, cwd=ROOT, env=env, stdout=subprocess.PIPE,
+-                              stderr=subprocess.STDOUT, text=True, encoding="utf-8",
+-                              errors="replace", bufsize=1) as process:
+-            try:
+-                config["child_pid"] = process.pid
+-                (directory / "run_config.json").write_text(json.dumps(config, ensure_ascii=False, indent=2), encoding="utf-8")
+-                show_and_save(process.stdout, log)
+-                returncode = process.wait()
+-            except KeyboardInterrupt:
+-                interrupted = True
+-                returncode = stop_interrupted_child(process, log)
+-    config["exit_code"] = returncode
+-    config["interrupted_by_user"] = interrupted
+-    config["termination_signal"] = termination_signal(returncode)
+-    config["finished_at_utc"] = datetime.now(timezone.utc).isoformat()
++        result = subprocess.run(command, cwd=ROOT, env=env, stdout=log, stderr=subprocess.STDOUT)
++    config["exit_code"] = result.returncode
+     config["process_seconds"] = time.perf_counter() - started
+     (directory / "run_config.json").write_text(json.dumps(config, ensure_ascii=False, indent=2), encoding="utf-8")
+-    if interrupted:
+-        raise KeyboardInterrupt
+-    if returncode != 0:
+-        excerpt = log_tail(directory / "run.log")
+-        print("\n失败日志末尾（最多 80 行 / 64 KiB）：\n" + (excerpt or "[日志为空]"), file=sys.stderr, flush=True)
+-        reason = f"，信号 {config['termination_signal']}" if config["termination_signal"] else ""
+-        raise RuntimeError(f"{method} 失败，退出码 {returncode}{reason}；耗时 {config['process_seconds']:.1f} 秒；请检查 {directory / 'run.log'}")
++    if result.returncode != 0:
++        raise RuntimeError(f"{method} 失败，退出码 {result.returncode}；请检查 {directory / 'run.log'}")
+     # 成功退出不够：再次核对题目数量、评测记录与 token 格式。
+     from summarize import load_run
+     load_run(directory)
+@@ -225,6 +159,3 @@
+     except (RuntimeError, ValueError, FileExistsError) as error:
+         print(f"运行中止: {error}", file=sys.stderr)
+         raise SystemExit(2)
+-    except KeyboardInterrupt:
+-        print("\n收到 Ctrl+C，运行已中断；已有输出保留。重试请使用新的 --output 目录。", file=sys.stderr)
+-        raise SystemExit(130)

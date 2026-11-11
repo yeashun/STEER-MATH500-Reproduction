@@ -1,0 +1,48 @@
+{
+  "scope": "Supplementary runs excluded from the main paired-seed comparison",
+  "baseline_seed4": [
+    {
+      "num_samples": 500,
+      "num_scores": 500,
+      "timeout_samples": 0,
+      "empty_samples": 1,
+      "acc": 74.0,
+      "generation_seconds": 60.34934568917379,
+      "evaluation": "official_rule_based",
+      "method": "small",
+      "seed": 4
+    },
+    {
+      "num_samples": 500,
+      "num_scores": 500,
+      "timeout_samples": 0,
+      "empty_samples": 1,
+      "acc": 81.0,
+      "generation_seconds": 161.65911008790135,
+      "evaluation": "official_rule_based",
+      "method": "large",
+      "seed": 4
+    }
+  ],
+  "steer_xformers_seed4": [
+    {
+      "num_questions": 500,
+      "correct": 378,
+      "rule_accuracy": 75.6,
+      "mean_flops_t": 3.517832,
+      "accuracy_per_flops": 21.490508927089184,
+      "small_used_tokens": 211985,
+      "small_discarded_tokens": 19215,
+      "large_generated_tokens": 76094,
+      "empty_answers": 1,
+      "method": "steer",
+      "seed": 4,
+      "run_directory": "<PROJECT>/results/gpu12_steer_seed4_xformers_01/seed_4/steer",
+      "evaluation": "official_rule_based",
+      "paper_accuracy": 79.6,
+      "paper_flops_t": 6.38,
+      "saving_vs_large_pct": null
+    }
+  ],
+  "failed_default_backend_seed4": "Kept on server; failure and debug logs are excluded from this release."
+}

@@ -1,0 +1,274 @@
+{
+  "repository": "https://github.com/helmsman12/STEER",
+  "commit": "04f5ad59bafa394b449f3e74e1b0529667a02cc7",
+  "download_method": "git clone (http.sslBackend=openssl)",
+  "files": [
+    {
+      "path": "LICENSE",
+      "upstream_sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6"
+    },
+    {
+      "path": "external/qwen25_math_evaluation/LICENSE",
+      "upstream_sha256": "cfbeb4770c397bb23b6e4ca7b0ae3c33ae89b9d72bde7a5ffccc87138a6d243f"
+    },
+    {
+      "path": "external/qwen25_math_evaluation/latex2sympy/LICENSE.txt",
+      "upstream_sha256": "6ec5a918f1e9677e4ddcc4a6cb9c6865b67b2ba33cdef0c1f9b5a84b46c876ff"
+    },
+    {
+      "path": "vllm_overwrite/sequence.py",
+      "upstream_sha256": "5bb4f0047dede02e1dce16972c2a792ecc744972e5581430ff26787667d171a3"
+    },
+    {
+      "path": "vllm_overwrite/model_executor/layers/sampler.py",
+      "upstream_sha256": "ccf2a2e53df6b4b82283c16ad7e169bdb265b8c9943a2d35d7c7b44a958e824f"
+    },
+    {
+      "path": "external/qwen25_math_evaluation/__init__.py",
+      "upstream_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "external/qwen25_math_evaluation/grader.py",
+      "upstream_sha256": "e624058d694e8412228eabb5f2fc6e5a5e83a999401adc54cbc0300e31ca0c41"
+    },
+    {
+      "path": "external/qwen25_math_evaluation/latex2sympy/__init__.py",
+      "upstream_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "external/qwen25_math_evaluation/latex2sympy/latex2sympy2.py",
+      "upstream_sha256": "a871e5ea1c6b798b494ba338d5801f3497363f55789881686e356e456eca437f"
+    },
+    {
+      "path": "external/qwen25_math_evaluation/latex2sympy/gen/__init__.py",
+      "upstream_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "external/qwen25_math_evaluation/latex2sympy/gen/PSLexer.py",
+      "upstream_sha256": "eb43f0c4fdb43db732921ce4a3257c547142061064f28da07acd359837fe63ee"
+    },
+    {
+      "path": "external/qwen25_math_evaluation/latex2sympy/gen/PSParser.py",
+      "upstream_sha256": "1d7684ad70a046722e4d4274abed72592d09e1f2ef9042f4f47d5b49f8202baa"
+    },
+    {
+      "path": "external/qwen25_math_evaluation/latex2sympy/gen/PSListener.py",
+      "upstream_sha256": "43cbe6c7cf95bb07454a702c2357386ea5dd4685c4cd760944894b87098d66ea"
+    },
+    {
+      "path": "external/qwen25_math_evaluation/data/math500/test.jsonl",
+      "upstream_sha256": "55e02317c57e6c22edc3acf444702e0653acbef8a8f49bfc58b77d6bfefc5693"
+    },
+    {
+      "path": "external/qwen25_math_evaluation/parser.py",
+      "upstream_sha256": "cea7ef86227378656329fbb04c98bfff30fff636eb840b37b4c8ecd8203d9cfa"
+    },
+    {
+      "path": "external/qwen25_math_evaluation/evaluate.py",
+      "upstream_sha256": "935c9b44f830cac62ab8434009aa9650e6eadfb486d6747e27e486f649acd296"
+    },
+    {
+      "path": "external/qwen25_math_evaluation/utils.py",
+      "upstream_sha256": "00212acf0235474f27832888470c3df04deba401a5ce30a8931b7f001347d3cc"
+    },
+    {
+      "path": "utils.py",
+      "upstream_sha256": "7865a3252b28ceb4d412a5ffce72c5743c6a180617972d573cd4cf8399f532c6"
+    },
+    {
+      "path": "implement_logit_measure.py",
+      "upstream_sha256": "63d668f8f1832cb97eab8a26fe6f37dd25b20dfa5692f2734639f064adfb8ad5"
+    },
+    {
+      "path": "ours_main.py",
+      "upstream_sha256": "1c858461bb2b2be85c18c2fc79179b88c9d540e0c340a565129890090234b194"
+    },
+    {
+      "path": "offline_llm_inference.py",
+      "upstream_sha256": "8326cf3f7a46a8162c6ce67476be0962cb150625d62a8a882c656ab327caaf6d"
+    }
+  ],
+  "math500_sha256": "55e02317c57e6c22edc3acf444702e0653acbef8a8f49bfc58b77d6bfefc5693",
+  "local_files": [
+    {
+      "path": ".gitignore",
+      "sha256": "544adb47d9226195c82de7e2ec3592984397ac4081d8bddaef0d755051563981"
+    },
+    {
+      "path": "baseline.py",
+      "sha256": "b526e8fe6652cb2e685e3a5919b751d9695160c9e734657aebd4c547957862a8"
+    },
+    {
+      "path": "check_env.py",
+      "sha256": "8d1acc11d4a36cb4355ca23b64a6517a632328110b2517a19c1497cf965ea9ca"
+    },
+    {
+      "path": "check_logits.py",
+      "sha256": "5c3dcbb59ad77ce0fb1a059896499a83c5013f1abaa14cc1ebb4b786634f2c42"
+    },
+    {
+      "path": "data/math500/test.jsonl",
+      "sha256": "55e02317c57e6c22edc3acf444702e0653acbef8a8f49bfc58b77d6bfefc5693"
+    },
+    {
+      "path": "external/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "external/qwen25_math_evaluation/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "external/qwen25_math_evaluation/data_loader.py",
+      "sha256": "a34fe3b8e7f58472a5810d18692af3147a66ce9c72cc8280444b802ac97769a4"
+    },
+    {
+      "path": "external/qwen25_math_evaluation/evaluate.py",
+      "sha256": "c93615acf42fe2e7fbf0989c8247ccf5601a9c6c0b10fd645f28ea4522b9e197"
+    },
+    {
+      "path": "external/qwen25_math_evaluation/grader.py",
+      "sha256": "e624058d694e8412228eabb5f2fc6e5a5e83a999401adc54cbc0300e31ca0c41"
+    },
+    {
+      "path": "external/qwen25_math_evaluation/latex2sympy/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "external/qwen25_math_evaluation/latex2sympy/gen/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "external/qwen25_math_evaluation/latex2sympy/gen/PSLexer.py",
+      "sha256": "eb43f0c4fdb43db732921ce4a3257c547142061064f28da07acd359837fe63ee"
+    },
+    {
+      "path": "external/qwen25_math_evaluation/latex2sympy/gen/PSListener.py",
+      "sha256": "43cbe6c7cf95bb07454a702c2357386ea5dd4685c4cd760944894b87098d66ea"
+    },
+    {
+      "path": "external/qwen25_math_evaluation/latex2sympy/gen/PSParser.py",
+      "sha256": "1d7684ad70a046722e4d4274abed72592d09e1f2ef9042f4f47d5b49f8202baa"
+    },
+    {
+      "path": "external/qwen25_math_evaluation/latex2sympy/latex2sympy2.py",
+      "sha256": "a871e5ea1c6b798b494ba338d5801f3497363f55789881686e356e456eca437f"
+    },
+    {
+      "path": "external/qwen25_math_evaluation/latex2sympy/LICENSE.txt",
+      "sha256": "6ec5a918f1e9677e4ddcc4a6cb9c6865b67b2ba33cdef0c1f9b5a84b46c876ff"
+    },
+    {
+      "path": "external/qwen25_math_evaluation/LICENSE",
+      "sha256": "cfbeb4770c397bb23b6e4ca7b0ae3c33ae89b9d72bde7a5ffccc87138a6d243f"
+    },
+    {
+      "path": "external/qwen25_math_evaluation/parser.py",
+      "sha256": "3185880e3642c8b426ebb8688beba4f1bc3f5237f4c864b262b5fc7b9c1a84f8"
+    },
+    {
+      "path": "external/qwen25_math_evaluation/utils.py",
+      "sha256": "a5212f045335c7fd631f6bd577f1fa4a974e8c4f34c4a9d8e8a0b03db6ae0fe5"
+    },
+    {
+      "path": "implement_logit_measure.py",
+      "sha256": "f425ce4385020360b6f3051f2697a5a714b8f33d736d958138f12339a6b3405e"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6"
+    },
+    {
+      "path": "offline_llm_inference.py",
+      "sha256": "49ae4c4d100639a746cf5a07945e77ad9652e3373727265d6af8e8cf67f4edcd"
+    },
+    {
+      "path": "ours_main.py",
+      "sha256": "6a6284835b2999db0699e12f649b3797216547ee6cd1ad68acb896acfd871ae9"
+    },
+    {
+      "path": "patch_vllm.py",
+      "sha256": "cb3ced81a798aff5aeffb4b249759f47e6069bdefe1a3440388e4e37ea66caee"
+    },
+    {
+      "path": "README.md",
+      "sha256": "4e463eeb1d86640b66ad797e48ec72f02bdd8b88a7f3619661e7c6289b62df16"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "4505888a30a68b2b3aaa237bd127c010356118602883de23b1efec5ef8147348"
+    },
+    {
+      "path": "run.py",
+      "sha256": "72e7b2cf37b64472aeb24552e1635e42f583899ac8a8f1524c75b48bc3dc64a0"
+    },
+    {
+      "path": "summarize.py",
+      "sha256": "acfabf675628bb3b9af3a0eb30254b37b9ab69c599271c7598741a9656d8b07d"
+    },
+    {
+      "path": "tests/test_core.py",
+      "sha256": "b2e7679f9664b2d299053c5a7eddef83d41001129032a970032f8eed00d69dd1"
+    },
+    {
+      "path": "utils.py",
+      "sha256": "d4457075b0c32d0569b32d2ba1bc4a11b7fa329e57a1ad3155fbc18ad97711b3"
+    },
+    {
+      "path": "vllm_overwrite/model_executor/layers/sampler.py",
+      "sha256": "ccf2a2e53df6b4b82283c16ad7e169bdb265b8c9943a2d35d7c7b44a958e824f"
+    },
+    {
+      "path": "vllm_overwrite/sequence.py",
+      "sha256": "5bb4f0047dede02e1dce16972c2a792ecc744972e5581430ff26787667d171a3"
+    },
+    {
+      "path": "download_large.py",
+      "sha256": "e1ab9ffcb0c56331598ed359962dd6abf5cadb10fedeceb1447b3685c4baaa06"
+    },
+    {
+      "path": "tests/test_download_large.py",
+      "sha256": "ebb49beead4d27f8e58492de009f3cde695b0f151542fcd6dfa088bf2d874f62"
+    },
+    {
+      "path": "analyze_results.py",
+      "sha256": "054c2d6ceb910d27131590f516805a88d8db79a57b3358439df3e37dc729dc77"
+    },
+    {
+      "path": "tests/test_analysis.py",
+      "sha256": "01e5a7043cf5986d1870b431d3f002b378629107d1b65f8ccfae72fdc3ea952f"
+    },
+    {
+      "path": "experiment1_four_states.py",
+      "sha256": "d81b03840c7b4455a26800ba5288f4b5b0e8684bc71ee62acef6a53405f331be"
+    },
+    {
+      "path": "requirements-analysis.txt",
+      "sha256": "89d59999ba4371dda4c9233975ebbb6b13babd1cc7c278f656eff992e5d7e19d"
+    },
+    {
+      "path": "tests/test_four_states.py",
+      "sha256": "35778456f1f113b0398081d8ff720741c8b26dfbbde1a1d1c41e99bad0e875f9"
+    },
+    {
+      "path": "experiments/实验1_大小模型四状态分布.md",
+      "sha256": "04a82066b005e68b1c84673610047b2d432a23f0fe5f25192796b5203dc5fccc"
+    },
+    {
+      "path": "experiments/preview_experiment1_archive.py",
+      "sha256": "b74e551927d761289a452864a50f4138e4f2f7c48f5f4fe8f750243bc8bc6b54"
+    },
+    {
+      "path": "experiment2_upgrade_confidence.py",
+      "sha256": "9613577cce8d5a1ae065913af7701b2fc12fa4d20d35200dad4bfffe18aa395c"
+    },
+    {
+      "path": "tests/test_confidence.py",
+      "sha256": "9c5acdd392d8b9061c38224b26ab56400e428bc7370628c292989c3adf1bc9f1"
+    },
+    {
+      "path": "experiments/实验2_01与00置信度代理及状态稳定性.md",
+      "sha256": "a146744afba4b1583bb6dce6cf5e9cb5b694083853a4f22cd2bfbf276aff5ac8"
+    }
+  ]
+}

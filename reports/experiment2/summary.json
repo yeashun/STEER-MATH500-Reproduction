@@ -1,0 +1,118 @@
+{
+  "confidence_proxy_analysis": {
+    "positive_class": "01",
+    "negative_class": "00",
+    "proxy": "leave_one_seed_out_normalized_answer_agreement",
+    "proxy_direction": "higher score means more agreement, not an outcome-selected sign",
+    "is_token_or_sequence_probability": false,
+    "selected_records": 513,
+    "selected_unique_questions": 187,
+    "available_records": 513,
+    "missing_records": 0,
+    "class_counts_all": {
+      "01": 228,
+      "00": 285
+    },
+    "class_counts_available": {
+      "01": 228,
+      "00": 285
+    },
+    "agreement_match_counts": {
+      "01": [
+        130,
+        59,
+        18,
+        21
+      ],
+      "00": [
+        160,
+        59,
+        39,
+        27
+      ]
+    },
+    "within_class_proportions": {
+      "01": [
+        0.5701754385964912,
+        0.25877192982456143,
+        0.07894736842105263,
+        0.09210526315789473
+      ],
+      "00": [
+        0.5614035087719298,
+        0.20701754385964913,
+        0.1368421052631579,
+        0.09473684210526316
+      ]
+    },
+    "auc_higher_agreement_predicts_01": 0.48591874422899356,
+    "auc_lower_agreement_predicts_01": 0.5140812557710064,
+    "discrete_distribution_overlap": 0.9394736842105262,
+    "bootstrap": {
+      "method": "question_cluster_percentile_bootstrap",
+      "sampling_unit": "question; all four seed observations kept together",
+      "num_source_questions": 500,
+      "repetitions": 2000,
+      "valid_repetitions": 2000,
+      "seed": 0,
+      "higher_agreement_auc_ci95": [
+        0.4291736436303891,
+        0.543316700580067
+      ],
+      "lower_agreement_auc_ci95": [
+        0.456683299419933,
+        0.5708263563696109
+      ]
+    },
+    "by_seed": [
+      {
+        "seed": 0,
+        "n_01": 59,
+        "n_00": 66,
+        "auc_higher_agreement_predicts_01": 0.5657421674370827,
+        "auc_lower_agreement_predicts_01": 0.4342578325629173
+      },
+      {
+        "seed": 1,
+        "n_01": 53,
+        "n_00": 75,
+        "auc_higher_agreement_predicts_01": 0.4244025157232704,
+        "auc_lower_agreement_predicts_01": 0.5755974842767295
+      },
+      {
+        "seed": 2,
+        "n_01": 61,
+        "n_00": 72,
+        "auc_higher_agreement_predicts_01": 0.4903233151183971,
+        "auc_lower_agreement_predicts_01": 0.5096766848816029
+      },
+      {
+        "seed": 3,
+        "n_01": 55,
+        "n_00": 72,
+        "auc_higher_agreement_predicts_01": 0.4616161616161616,
+        "auc_lower_agreement_predicts_01": 0.5383838383838384
+      }
+    ],
+    "h1_status": "True probability confidence unavailable; proxy experiment only, not a definitive H1 test"
+  },
+  "question_state_stability": {
+    "num_questions": 500,
+    "num_seeds": 4,
+    "categories": {
+      "stable_11": 288,
+      "stable_01": 10,
+      "stable_10": 2,
+      "stable_00": 41,
+      "mixed": 159
+    },
+    "num_distinct_states_counts": {
+      "1": 341,
+      "2": 121,
+      "3": 34,
+      "4": 4
+    },
+    "four_times_00": 41,
+    "one_00_three_01": 4
+  }
+}

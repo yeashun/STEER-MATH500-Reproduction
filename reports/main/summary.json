@@ -1,0 +1,54 @@
+{
+  "small": {
+    "seeds": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "questions_per_seed": 500,
+    "accuracy_pct": {
+      "mean": 74.35,
+      "sample_sd": 0.6806859285554013
+    },
+    "mean_flops_t": {
+      "mean": 1.6789995000000002,
+      "sample_sd": 0.03576063032162604
+    }
+  },
+  "large": {
+    "seeds": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "questions_per_seed": 500,
+    "accuracy_pct": {
+      "mean": 81.5,
+      "sample_sd": 1.4832396974191293
+    },
+    "mean_flops_t": {
+      "mean": 10.799033,
+      "sample_sd": 0.32423055318707994
+    }
+  },
+  "steer": {
+    "seeds": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "questions_per_seed": 500,
+    "accuracy_pct": {
+      "mean": 78.15,
+      "sample_sd": 1.2041594578792332
+    },
+    "mean_flops_t": {
+      "mean": 4.679137,
+      "sample_sd": 0.5579109048931261
+    },
+    "saving_from_ratio_of_mean_flops_pct": 56.67077783723784
+  }
+}

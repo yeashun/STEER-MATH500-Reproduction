@@ -1,0 +1,8 @@
+﻿idx,unique_id,problem,level,subject,state_seed_0,state_seed_1,state_seed_2,state_seed_3,n_11,n_01,n_10,n_00,num_distinct_states,pattern,category,large_rescue_rate_given_small_wrong,four_times_00,one_00_three_01
+33,test/algebra/1072.json,"Consider the geometric sequence $\frac{125}{9}, \frac{25}{3}, 5, 3, \ldots$. What is the eighth term of the sequence? Express your answer as a common fraction.",4,Algebra,01,01,01,00,0,3,0,1,2,01|01|01|00,mixed,0.75,False,True
+101,test/intermediate_algebra/582.json,"The equation
+\[x^{10}+(13x-1)^{10}=0\,\]has 10 complex roots $r_1,$ $\overline{r}_1,$ $r_2,$ $\overline{r}_2,$ $r_3,$ $\overline{r}_3,$ $r_4,$ $\overline{r}_4,$ $r_5,$ $\overline{r}_5,$ where the bar denotes complex conjugation. Find the value of
+\[\frac 1{r_1\overline{r}_1}+\frac 1{r_2\overline{r}_2}+\frac 1{r_3\overline{r}_3}+\frac 1{r_4\overline{r}_4}+\frac 1{r_5\overline{r}_5}.\]",5,Intermediate Algebra,01,01,01,00,0,3,0,1,2,01|01|01|00,mixed,0.75,False,True
+213,test/intermediate_algebra/102.json,"Compute
+\[\sum_{n = 1}^\infty \frac{F_{n + 1}}{F_n F_{n + 2}},\]where $F_n$ denotes the $n$th Fibonacci number, so $F_0 = 0$ and $F_1 = 1.$",4,Intermediate Algebra,01,01,01,00,0,3,0,1,2,01|01|01|00,mixed,0.75,False,True
+349,test/counting_and_probability/238.json,In how many ways can 8 people be seated around a square table with 2 people on a side?  (Two configurations are considered equivalent if one is a rotation of another.),4,Counting & Probability,01,01,01,00,0,3,0,1,2,01|01|01|00,mixed,0.75,False,True

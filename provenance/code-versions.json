@@ -1,0 +1,23 @@
+{
+  "upstream_commit": "04f5ad59bafa394b449f3e74e1b0529667a02cc7",
+  "published_code": "Local maintained version; not claimed to be the byte-identical execution snapshot",
+  "recorded_code": "Server source read on 2026-11-11; patch restores the three differing runtime modules",
+  "changed_runtime_files": [
+    {
+      "path": "STEER_MATH500/baseline.py",
+      "published_sha256": "b526e8fe6652cb2e685e3a5919b751d9695160c9e734657aebd4c547957862a8",
+      "recorded_server_sha256": "bdeee29bae0fc250a1302ea417a7235df9d47fa6554f2c3ca9f3eebb3f9cbec9"
+    },
+    {
+      "path": "STEER_MATH500/check_env.py",
+      "published_sha256": "8d1acc11d4a36cb4355ca23b64a6517a632328110b2517a19c1497cf965ea9ca",
+      "recorded_server_sha256": "5149575db01a5f9e2ee5203e02aa1d90e9ee3ffb3713fc32bc0bb3b4469f8201"
+    },
+    {
+      "path": "STEER_MATH500/run.py",
+      "published_sha256": "72e7b2cf37b64472aeb24552e1635e42f583899ac8a8f1524c75b48bc3dc64a0",
+      "recorded_server_sha256": "0e40b344702d4603db699d54528f4f96f671cf19ab63041871fa04e1d828680e"
+    }
+  ],
+  "note": "Server README, UPSTREAM metadata and tests/test_core.py also differ; those historical documentation/test copies are not runtime inputs and are not bundled."
+}

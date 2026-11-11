@@ -1,0 +1,486 @@
+{
+  "prepared_on": "2026-11-11",
+  "scope": "Curated publication copies; raw experiment output and credentials excluded",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 152,
+      "sha256": "b077507284312b0c8472145f0c06d51c9c32f51eccde444f6dc0c5063dbd2286"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 517,
+      "sha256": "e73ca07a1824d709eeafbd6dad7a99d05576626213405f28828276ee33c70d6d"
+    },
+    {
+      "path": "docs/organization.md",
+      "bytes": 2032,
+      "sha256": "d8476723b0859f9651dbd0448897dfc76761e6809d81f688fedf907ccbed7f39"
+    },
+    {
+      "path": "docs/reproduction.md",
+      "bytes": 4212,
+      "sha256": "72bd16731fb705bff085dfdc9863bce157b03ee25ce233afa5ac7b510592d6e3"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 11558,
+      "sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6"
+    },
+    {
+      "path": "NOTICE",
+      "bytes": 496,
+      "sha256": "cd9f54bf2dfc686346ba06eab412c333a36fbeb3bb7f6b5b092a6ce664c7a6ef"
+    },
+    {
+      "path": "provenance/additional-runs.json",
+      "bytes": 1409,
+      "sha256": "82b55cda5ea087d4b7061a9692fb492747facbfb1249ae5d1fd79758fc752117"
+    },
+    {
+      "path": "provenance/code-versions.json",
+      "bytes": 1248,
+      "sha256": "856d7b854cea6eb7f8c42e7f7b2bafc0f04f032604d6c6345afcb38817bd95de"
+    },
+    {
+      "path": "provenance/input-files.json",
+      "bytes": 3405,
+      "sha256": "0dda6d16158ff1f70e04d53585690c514bed7380fb7ae3588d088f162c783b7f"
+    },
+    {
+      "path": "provenance/recorded-code.patch",
+      "bytes": 13349,
+      "sha256": "a40978f58e2a171115abe2bc68c9ab71f69baf03cc0bc7051ed5270d0cd6e0aa"
+    },
+    {
+      "path": "provenance/run-configs.json",
+      "bytes": 21178,
+      "sha256": "f316f81543209ac923de085c3b13bae3af176a6ebf1bbccd815bd59c20de53d2"
+    },
+    {
+      "path": "provenance/validation.md",
+      "bytes": 1419,
+      "sha256": "c91bbed85c302bdc3df2c4e8b5892b8b9bbb414449ebaa5b62c0dbaadf09efe5"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3463,
+      "sha256": "64680a6d7fe8dd59b2d556a4a1f5e3141d1919980a629cf3e81cede96adc77d4"
+    },
+    {
+      "path": "references/README.md",
+      "bytes": 1591,
+      "sha256": "dc49c81bed3fd1de4a3e3b4fa27f3a97dbe5ec5071e36dfb5ce636b677eb419f"
+    },
+    {
+      "path": "references/references.bib",
+      "bytes": 1910,
+      "sha256": "a7e535bc7f9a4bf172eddaa07ca74dd372f4e75accd5e07614d6a8606544fa35"
+    },
+    {
+      "path": "reports/experiment1/by_level_subject.csv",
+      "bytes": 1348,
+      "sha256": "fa91a9876a4614fbfc47aa47254b18bfb7ca972b0b3abb10d088de6e70c62c15"
+    },
+    {
+      "path": "reports/experiment1/checks.json",
+      "bytes": 13996,
+      "sha256": "f48c44ff141b7783b4cdf3eacc1be0c231bad30403572eab39d20604325e8b08"
+    },
+    {
+      "path": "reports/experiment1/four_states.png",
+      "bytes": 288899,
+      "sha256": "6bfc88b7399650b390b09a57f639c34072655913b5e6ca6cc3641c47ad9f6330"
+    },
+    {
+      "path": "reports/experiment1/four_states_by_group.png",
+      "bytes": 141929,
+      "sha256": "2ba46ca8a7dab85d84e36d52339a843ec9aea98504fab21e3e39d5010bc42d9e"
+    },
+    {
+      "path": "reports/experiment1/per_question.csv",
+      "bytes": 212630,
+      "sha256": "10ac086e07a4180a93d16a59ff6ba9c3b81f5649c01370d20205e6e4e0def4fc"
+    },
+    {
+      "path": "reports/experiment1/per_seed.csv",
+      "bytes": 592,
+      "sha256": "b12d1f634b5711a78884c8e7768cd523b29c19005c04e248cdad1e0806f890cb"
+    },
+    {
+      "path": "reports/experiment1/question_stability.csv",
+      "bytes": 32240,
+      "sha256": "76b65f730ffe501d1071b78903fbacaccebd31a5aa9bbdf9c44ba2e742e8bf3a"
+    },
+    {
+      "path": "reports/experiment1/report.md",
+      "bytes": 2671,
+      "sha256": "ae18fa221a81d4fcd12ca2b34e00deca2ccdfd8da5c26cb586c6b535018caa65"
+    },
+    {
+      "path": "reports/experiment1/selected_questions.csv",
+      "bytes": 119525,
+      "sha256": "acc81eacac483692aabb3de1d7018bcb4aa67c7feb6774e16405cdd56ad221a8"
+    },
+    {
+      "path": "reports/experiment1/summary.json",
+      "bytes": 3483,
+      "sha256": "d5c769382bcb74a9656f5f391de67dcd65d96174d0d472ce9e6938f6a5bf7734"
+    },
+    {
+      "path": "reports/experiment2/auc_by_seed.csv",
+      "bytes": 272,
+      "sha256": "29ac2830c4e3252f56bd2598c40d539df948ba791d58097c297775cd15e2c800"
+    },
+    {
+      "path": "reports/experiment2/checks.json",
+      "bytes": 8701,
+      "sha256": "4b7ee8b78ab84c5edc5f39c59bad8c6690e948d0b68ccc6ed98a7d7529d5cc72"
+    },
+    {
+      "path": "reports/experiment2/confidence_proxy_01_vs_00.png",
+      "bytes": 232984,
+      "sha256": "bbb64a5e10ef5b400020418ea78221b836d2f9aed97129961707c21e63c51428"
+    },
+    {
+      "path": "reports/experiment2/independent_verification.json",
+      "bytes": 327,
+      "sha256": "5f37fa07898cea1ee1782631900382e2af78bcf34d9ce13ff2c37d2c6222c9d1"
+    },
+    {
+      "path": "reports/experiment2/one00_three01_questions.csv",
+      "bytes": 1532,
+      "sha256": "e86ad7ba9f3584d3d05fd0e4f8b76cfd27a431eab8ca36fe2a5742a47cb24db8"
+    },
+    {
+      "path": "reports/experiment2/ordered_state_pattern_counts.csv",
+      "bytes": 1210,
+      "sha256": "d45d892fd5ec1b901e5887ac73c7e75e116a46426e8f0e79bc41eba996ea5dfb"
+    },
+    {
+      "path": "reports/experiment2/question_state_patterns.csv",
+      "bytes": 152493,
+      "sha256": "53bd13bfce35917bafe9ecf929c6b4ad363233f50ab92375a8de9741ac9ee8ab"
+    },
+    {
+      "path": "reports/experiment2/question_state_stability.png",
+      "bytes": 250276,
+      "sha256": "9caeea1d1577afe934ef9aa1a1d94a96aa5607f4b4936a4049dfe6a2c42a44d9"
+    },
+    {
+      "path": "reports/experiment2/report.md",
+      "bytes": 4178,
+      "sha256": "e1dfc8fda6cfe7f63c2bec4c57edbf5133c0da5ae8ecfc5b4f41243fc90b3402"
+    },
+    {
+      "path": "reports/experiment2/selected_01_00.csv",
+      "bytes": 91187,
+      "sha256": "6b8ad9e3bbf7743189c414cc6b2c15611daa3af3c7546b92b1b393b776988575"
+    },
+    {
+      "path": "reports/experiment2/stable_00_questions.csv",
+      "bytes": 19536,
+      "sha256": "8df3a58fb8184c39cc1d019466913911044ffae6947669a4f0f80d35ab95e453"
+    },
+    {
+      "path": "reports/experiment2/state_composition_counts.csv",
+      "bytes": 387,
+      "sha256": "6d7548472359b2497047af9ab06c93ab62a49be564be16e54aae4e7a7e8bd3e9"
+    },
+    {
+      "path": "reports/experiment2/summary.json",
+      "bytes": 3129,
+      "sha256": "050f7aa266a0285678a449111cff1f1744045f0eb7a40826676592de96306c61"
+    },
+    {
+      "path": "reports/main/by_level_subject.csv",
+      "bytes": 9022,
+      "sha256": "c549545ce72cf68e9fb9366f6b50411e8abfc0c04c4941b53ffcbebcefaeedef"
+    },
+    {
+      "path": "reports/main/checks.json",
+      "bytes": 18070,
+      "sha256": "75eff17e8e1a10061e918ba2f4d3e1328b90bf8b0a2cc021dfedd17638acc74f"
+    },
+    {
+      "path": "reports/main/paired_outcomes.csv",
+      "bytes": 195,
+      "sha256": "d39814616c83fdea07b1fdcc28c70f15b313873268b01b4dbdd0ccf6799f6925"
+    },
+    {
+      "path": "reports/main/per_seed.csv",
+      "bytes": 940,
+      "sha256": "0526bbb2ab798d69853871860b858f5c010acca626eae1ef324d71f87aed0f18"
+    },
+    {
+      "path": "reports/main/regrade_changes.csv",
+      "bytes": 21,
+      "sha256": "18f56cfa6d85be953f5bd0ffd38d3a3c8fabdb3a0d3ef4860a758937dac79d0e"
+    },
+    {
+      "path": "reports/main/report.md",
+      "bytes": 1984,
+      "sha256": "64d0640972658d2dcc21fcaaf83f6244e0744572cb2a0a795aeb951c08d54362"
+    },
+    {
+      "path": "reports/main/score_token_counts.csv",
+      "bytes": 309758,
+      "sha256": "446bb791726ac27e6f4bbcc99a2f42b3168b8682e6e94b759d900c5ce221611e"
+    },
+    {
+      "path": "reports/main/summary.json",
+      "bytes": 983,
+      "sha256": "9b720a0c8cc44d017ae16a7d4cdb9ade5490da9ebeb9ad91b4795a4d624d41a4"
+    },
+    {
+      "path": "scripts/build_slides.py",
+      "bytes": 5882,
+      "sha256": "26477d9131c9b2646070230bb4c7b72bde7844f92f5059e0fa58a561848bb2cc"
+    },
+    {
+      "path": "scripts/requirements-slides.txt",
+      "bytes": 51,
+      "sha256": "ebb3bd26998d91681ed8507c5a2d5a80d408fd5b5d6958296660da12bea0959a"
+    },
+    {
+      "path": "scripts/verify_published_results.py",
+      "bytes": 5192,
+      "sha256": "ea672b4b22701be9c99abd958851da0b0d687508608fc86f0a409de0e78a17c1"
+    },
+    {
+      "path": "slides/content.json",
+      "bytes": 22365,
+      "sha256": "a411cb2ac5159b803578270bfafeccd5eea4b705270ef9aa78c4df5ab7630d9b"
+    },
+    {
+      "path": "slides/README.md",
+      "bytes": 2946,
+      "sha256": "f5697ae2e5a215d64664d11fe63bf7ea71f6410745aeb80bcb01ac2354a111b3"
+    },
+    {
+      "path": "slides/STEER_literature_and_reproduction.pdf",
+      "bytes": 584226,
+      "sha256": "23919d397db126cea6bf6ccc9e9dc38b459d77d67db0c0c334a853a58f1664db"
+    },
+    {
+      "path": "slides/STEER_literature_and_reproduction.pptx",
+      "bytes": 312042,
+      "sha256": "7996b8a7212629279b69eef4b5b4b5627d6471411f0dc870febbb1f6cc8904e0"
+    },
+    {
+      "path": "STEER_MATH500/analyze_results.py",
+      "bytes": 23229,
+      "sha256": "054c2d6ceb910d27131590f516805a88d8db79a57b3358439df3e37dc729dc77"
+    },
+    {
+      "path": "STEER_MATH500/baseline.py",
+      "bytes": 6780,
+      "sha256": "b526e8fe6652cb2e685e3a5919b751d9695160c9e734657aebd4c547957862a8"
+    },
+    {
+      "path": "STEER_MATH500/check_env.py",
+      "bytes": 5669,
+      "sha256": "8d1acc11d4a36cb4355ca23b64a6517a632328110b2517a19c1497cf965ea9ca"
+    },
+    {
+      "path": "STEER_MATH500/check_logits.py",
+      "bytes": 1738,
+      "sha256": "5c3dcbb59ad77ce0fb1a059896499a83c5013f1abaa14cc1ebb4b786634f2c42"
+    },
+    {
+      "path": "STEER_MATH500/data/math500/test.jsonl",
+      "bytes": 447064,
+      "sha256": "55e02317c57e6c22edc3acf444702e0653acbef8a8f49bfc58b77d6bfefc5693"
+    },
+    {
+      "path": "STEER_MATH500/download_large.py",
+      "bytes": 5010,
+      "sha256": "e1ab9ffcb0c56331598ed359962dd6abf5cadb10fedeceb1447b3685c4baaa06"
+    },
+    {
+      "path": "STEER_MATH500/experiment1_four_states.py",
+      "bytes": 27708,
+      "sha256": "d81b03840c7b4455a26800ba5288f4b5b0e8684bc71ee62acef6a53405f331be"
+    },
+    {
+      "path": "STEER_MATH500/experiment2_upgrade_confidence.py",
+      "bytes": 28216,
+      "sha256": "9613577cce8d5a1ae065913af7701b2fc12fa4d20d35200dad4bfffe18aa395c"
+    },
+    {
+      "path": "STEER_MATH500/experiments/preview_experiment1_archive.py",
+      "bytes": 7847,
+      "sha256": "b74e551927d761289a452864a50f4138e4f2f7c48f5f4fe8f750243bc8bc6b54"
+    },
+    {
+      "path": "STEER_MATH500/external/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "STEER_MATH500/external/qwen25_math_evaluation/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "STEER_MATH500/external/qwen25_math_evaluation/data_loader.py",
+      "bytes": 423,
+      "sha256": "a34fe3b8e7f58472a5810d18692af3147a66ce9c72cc8280444b802ac97769a4"
+    },
+    {
+      "path": "STEER_MATH500/external/qwen25_math_evaluation/evaluate.py",
+      "bytes": 3935,
+      "sha256": "041ab4e48ca557928baa6bf429cc3cd7406d85584cac7b4f80b464d664916459"
+    },
+    {
+      "path": "STEER_MATH500/external/qwen25_math_evaluation/grader.py",
+      "bytes": 11925,
+      "sha256": "3e7f30e4515fe877a51912e0a3c5d59f53bf5e3a6e36d48cfb21cc5b0998dd24"
+    },
+    {
+      "path": "STEER_MATH500/external/qwen25_math_evaluation/latex2sympy/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "STEER_MATH500/external/qwen25_math_evaluation/latex2sympy/gen/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "STEER_MATH500/external/qwen25_math_evaluation/latex2sympy/gen/PSLexer.py",
+      "bytes": 118575,
+      "sha256": "01ceb9cb9691c7ceba454c4a7bbb54d82af6b11927632f0570e434520841444a"
+    },
+    {
+      "path": "STEER_MATH500/external/qwen25_math_evaluation/latex2sympy/gen/PSListener.py",
+      "bytes": 14144,
+      "sha256": "e8509046ad88ef68066a89576da26197a4916f1a78b773792f1ee985c3dddf36"
+    },
+    {
+      "path": "STEER_MATH500/external/qwen25_math_evaluation/latex2sympy/gen/PSParser.py",
+      "bytes": 249713,
+      "sha256": "ca1a0674924d2e09e9d76b8af2bdd0a9a07be19f5ed0531df6c1b11b6b41fb83"
+    },
+    {
+      "path": "STEER_MATH500/external/qwen25_math_evaluation/latex2sympy/latex2sympy2.py",
+      "bytes": 40465,
+      "sha256": "cb5fd507db8d0e4beac3e96f2a096f82f946b9f979ac4c5a3f6376d0258330b6"
+    },
+    {
+      "path": "STEER_MATH500/external/qwen25_math_evaluation/latex2sympy/LICENSE.txt",
+      "bytes": 1096,
+      "sha256": "6ec5a918f1e9677e4ddcc4a6cb9c6865b67b2ba33cdef0c1f9b5a84b46c876ff"
+    },
+    {
+      "path": "STEER_MATH500/external/qwen25_math_evaluation/LICENSE",
+      "bytes": 1088,
+      "sha256": "cfbeb4770c397bb23b6e4ca7b0ae3c33ae89b9d72bde7a5ffccc87138a6d243f"
+    },
+    {
+      "path": "STEER_MATH500/external/qwen25_math_evaluation/parser.py",
+      "bytes": 16116,
+      "sha256": "3185880e3642c8b426ebb8688beba4f1bc3f5237f4c864b262b5fc7b9c1a84f8"
+    },
+    {
+      "path": "STEER_MATH500/external/qwen25_math_evaluation/utils.py",
+      "bytes": 1794,
+      "sha256": "a5212f045335c7fd631f6bd577f1fa4a974e8c4f34c4a9d8e8a0b03db6ae0fe5"
+    },
+    {
+      "path": "STEER_MATH500/implement_logit_measure.py",
+      "bytes": 3074,
+      "sha256": "49c34eaac3cb888b435e7563c89b5a197e85db164f8fbcf5abee518eed0a27a3"
+    },
+    {
+      "path": "STEER_MATH500/LICENSE",
+      "bytes": 11558,
+      "sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6"
+    },
+    {
+      "path": "STEER_MATH500/offline_llm_inference.py",
+      "bytes": 745,
+      "sha256": "49ae4c4d100639a746cf5a07945e77ad9652e3373727265d6af8e8cf67f4edcd"
+    },
+    {
+      "path": "STEER_MATH500/ours_main.py",
+      "bytes": 34813,
+      "sha256": "6a6284835b2999db0699e12f649b3797216547ee6cd1ad68acb896acfd871ae9"
+    },
+    {
+      "path": "STEER_MATH500/patch_vllm.py",
+      "bytes": 1810,
+      "sha256": "cb3ced81a798aff5aeffb4b249759f47e6069bdefe1a3440388e4e37ea66caee"
+    },
+    {
+      "path": "STEER_MATH500/README.md",
+      "bytes": 524,
+      "sha256": "f7e4e46b969db8bc516c8ddd5c993e885698476ede38a6abc24969373f3ac795"
+    },
+    {
+      "path": "STEER_MATH500/requirements-analysis.txt",
+      "bytes": 106,
+      "sha256": "89d59999ba4371dda4c9233975ebbb6b13babd1cc7c278f656eff992e5d7e19d"
+    },
+    {
+      "path": "STEER_MATH500/requirements.txt",
+      "bytes": 389,
+      "sha256": "4505888a30a68b2b3aaa237bd127c010356118602883de23b1efec5ef8147348"
+    },
+    {
+      "path": "STEER_MATH500/run.py",
+      "bytes": 12514,
+      "sha256": "72e7b2cf37b64472aeb24552e1635e42f583899ac8a8f1524c75b48bc3dc64a0"
+    },
+    {
+      "path": "STEER_MATH500/summarize.py",
+      "bytes": 4914,
+      "sha256": "acfabf675628bb3b9af3a0eb30254b37b9ab69c599271c7598741a9656d8b07d"
+    },
+    {
+      "path": "STEER_MATH500/tests/test_analysis.py",
+      "bytes": 8406,
+      "sha256": "01e5a7043cf5986d1870b431d3f002b378629107d1b65f8ccfae72fdc3ea952f"
+    },
+    {
+      "path": "STEER_MATH500/tests/test_confidence.py",
+      "bytes": 5052,
+      "sha256": "9c5acdd392d8b9061c38224b26ab56400e428bc7370628c292989c3adf1bc9f1"
+    },
+    {
+      "path": "STEER_MATH500/tests/test_core.py",
+      "bytes": 19484,
+      "sha256": "b2e7679f9664b2d299053c5a7eddef83d41001129032a970032f8eed00d69dd1"
+    },
+    {
+      "path": "STEER_MATH500/tests/test_download_large.py",
+      "bytes": 3808,
+      "sha256": "ebb49beead4d27f8e58492de009f3cde695b0f151542fcd6dfa088bf2d874f62"
+    },
+    {
+      "path": "STEER_MATH500/tests/test_four_states.py",
+      "bytes": 9196,
+      "sha256": "35778456f1f113b0398081d8ff720741c8b26dfbbde1a1d1c41e99bad0e875f9"
+    },
+    {
+      "path": "STEER_MATH500/UPSTREAM.json",
+      "bytes": 10534,
+      "sha256": "a85aa204355c0af96ca99955ea63950191ee8e095cbf1ebd138b02ca530f7339"
+    },
+    {
+      "path": "STEER_MATH500/utils.py",
+      "bytes": 15243,
+      "sha256": "599e9f0867eab7f8ceb5b4d7139013f74bdee827f0dd4c5ddfe399f7189e7f13"
+    },
+    {
+      "path": "STEER_MATH500/vllm_overwrite/model_executor/layers/sampler.py",
+      "bytes": 52480,
+      "sha256": "939faa062cc5ce66c990c0c933599543225f5bdff37df204f70c2e97f0522683"
+    },
+    {
+      "path": "STEER_MATH500/vllm_overwrite/sequence.py",
+      "bytes": 58829,
+      "sha256": "0c28cadebae695651c71cd3521f205c1f8f5323c4eb6f4a56073a1f320f62e1c"
+    }
+  ]
+}

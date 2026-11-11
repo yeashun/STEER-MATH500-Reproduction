@@ -1,0 +1,98 @@
+[
+  {
+    "method": "small",
+    "seed": 0,
+    "source": "results/gpu7_small_full_01/seed_0/small/samples.jsonl",
+    "raw_sha256": "ac6b1e8e7884c30cdc2af92759953187f4c581e77054e1ec96758239876ca8cb",
+    "raw_bytes": 1598253,
+    "raw_download_verified_on": "2026-10-23"
+  },
+  {
+    "method": "small",
+    "seed": 1,
+    "source": "results/gpu7_small_full_01/seed_1/small/samples.jsonl",
+    "raw_sha256": "850931997b86d471a24490513925ebebcf58fb42e652762417ede46f63a2bf69",
+    "raw_bytes": 1577726,
+    "raw_download_verified_on": "2026-10-23"
+  },
+  {
+    "method": "small",
+    "seed": 2,
+    "source": "results/gpu7_small_full_01/seed_2/small/samples.jsonl",
+    "raw_sha256": "e47b0e124337e2c714c228fd97efe8936bcfd8972ee1e0a1a273f6fe1c51878c",
+    "raw_bytes": 1616366,
+    "raw_download_verified_on": "2026-10-23"
+  },
+  {
+    "method": "small",
+    "seed": 3,
+    "source": "results/gpu7_small_full_01/seed_3/small/samples.jsonl",
+    "raw_sha256": "3db936fce8f3a6f41852dd295174f8ee3ca61f9d77300282cecbf3c128b92aa2",
+    "raw_bytes": 1575634,
+    "raw_download_verified_on": "2026-10-23"
+  },
+  {
+    "method": "large",
+    "seed": 0,
+    "source": "results/gpu7_large_full_01/seed_0/large/samples.jsonl",
+    "raw_sha256": "070cae7fe2633884c13f6c4f090a9a2b75499cf19336629af427cdb2948fa572",
+    "raw_bytes": 2280526,
+    "raw_download_verified_on": "2026-10-23"
+  },
+  {
+    "method": "large",
+    "seed": 1,
+    "source": "results/gpu7_large_full_01/seed_1/large/samples.jsonl",
+    "raw_sha256": "483eca2560bd40fa2d1b1e7f8b05b324f8c614bf882a3ab807d1fd32d0d4a4cc",
+    "raw_bytes": 2152904,
+    "raw_download_verified_on": "2026-10-23"
+  },
+  {
+    "method": "large",
+    "seed": 2,
+    "source": "results/gpu7_large_full_01/seed_2/large/samples.jsonl",
+    "raw_sha256": "7284dcffca10f09128ede761c8a7ad6f732342c74e00dd14bb657a225c0c2d2a",
+    "raw_bytes": 2199913,
+    "raw_download_verified_on": "2026-10-23"
+  },
+  {
+    "method": "large",
+    "seed": 3,
+    "source": "results/gpu7_large_full_01/seed_3/large/samples.jsonl",
+    "raw_sha256": "83710ff25cf9b5c6696a33220e563b23f655299bb07ce8fc0a5ecdc4c8e176c8",
+    "raw_bytes": 2151901,
+    "raw_download_verified_on": "2026-10-23"
+  },
+  {
+    "method": "steer",
+    "seed": 0,
+    "source": "results/gpu12_steer_full_01/seed_0/steer/samples.jsonl",
+    "raw_sha256": "16adc8a67ac9f1f68693e1c1d29547448e1126386e75f77fedfa555bca7ae372",
+    "raw_bytes": 2207259,
+    "raw_download_verified_on": "2026-11-11"
+  },
+  {
+    "method": "steer",
+    "seed": 1,
+    "source": "results/gpu12_steer_full_01/seed_1/steer/samples.jsonl",
+    "raw_sha256": "c7ce7c673db7967363909b61886a6bd1350a72f514072487983eb2bf0ef3904c",
+    "raw_bytes": 2227406,
+    "raw_download_verified_on": "2026-11-11"
+  },
+  {
+    "method": "steer",
+    "seed": 2,
+    "source": "results/gpu12_steer_full_01/seed_2/steer/samples.jsonl",
+    "raw_sha256": "adbaa61db3319fd89db52ef94a3b960b50dfb60809309ace48b4d485904fe738",
+    "raw_bytes": 2228738,
+    "raw_download_verified_on": "2026-11-11"
+  },
+  {
+    "method": "steer",
+    "seed": 3,
+    "source": "results/gpu12_steer_full_01/seed_3/steer/samples.jsonl",
+    "raw_sha256": "b1da6865744434b7a6623a174c7d1782f856762f5d7636f1bb006753e864954b",
+    "raw_bytes": 2165994,
+    "raw_download_verified_on": "2026-11-11"
+  }
+]

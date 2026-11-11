@@ -1,0 +1,514 @@
+﻿seed,idx,unique_id,level,subject,state,state_label,small_score,large_score,small_pred,large_pred,small_finish_reason,large_finish_reason,normalized_prediction,other_seed_matches,answer_agreement_proxy,proxy_status
+0,9,test/prealgebra/1139.json,5,Prealgebra,00,都错误,0,0,5,5,stop,stop,5,0,0.0,available
+0,11,test/intermediate_algebra/1197.json,5,Intermediate Algebra,00,都错误,0,0,\frac{1}{9},\frac{248}{147},stop,stop,\frac{1}{9},0,0.0,available
+0,14,test/precalculus/1303.json,1,Precalculus,01,仅大模型正确,0,1,10,\sqrt{51},stop,stop,10,3,1.0,available
+0,15,test/precalculus/990.json,5,Precalculus,01,仅大模型正确,0,1,6+(3\sqrt{2}-5)i,6-5i,stop,stop,6+(3\sqrt{2}-5)i,0,0.0,available
+0,18,test/geometry/434.json,1,Geometry,01,仅大模型正确,0,1,56,28,stop,stop,56,1,0.3333333333333333,available
+0,21,test/intermediate_algebra/607.json,3,Intermediate Algebra,01,仅大模型正确,0,1,8864,13535,stop,stop,8864,0,0.0,available
+0,22,test/algebra/1837.json,5,Algebra,01,仅大模型正确,0,1,6,5,stop,stop,6,0,0.0,available
+0,25,test/intermediate_algebra/1388.json,5,Intermediate Algebra,00,都错误,0,0,"-1,1",6,stop,length,"-1,1",0,0.0,available
+0,33,test/algebra/1072.json,4,Algebra,01,仅大模型正确,0,1,\frac{81}{205},\frac{243}{625},stop,stop,\frac{81}{205},1,0.3333333333333333,available
+0,41,test/geometry/627.json,4,Geometry,00,都错误,0,0,5,2,stop,length,5,0,0.0,available
+0,43,test/intermediate_algebra/1454.json,5,Intermediate Algebra,00,都错误,0,0,10\sqrt{34}+20\sqrt{5},126,stop,stop,10\sqrt{34}+20\sqrt{5},0,0.0,available
+0,50,test/number_theory/1055.json,5,Number Theory,01,仅大模型正确,0,1,35,203,stop,stop,35,0,0.0,available
+0,51,test/intermediate_algebra/1217.json,2,Intermediate Algebra,01,仅大模型正确,0,1,0,x^5-x^4+x^3-x^2+x-1,stop,stop,0,0,0.0,available
+0,58,test/algebra/722.json,1,Algebra,00,都错误,0,0,10000,10000,stop,stop,10000,2,0.6666666666666666,available
+0,60,test/intermediate_algebra/956.json,5,Intermediate Algebra,00,都错误,0,0,"(1,23,-1)",11,stop,length,"(1,23,-1)",0,0.0,available
+0,62,test/precalculus/675.json,5,Precalculus,01,仅大模型正确,0,1,\sqrt{\frac{17+\sqrt{273}}{2}},4,stop,stop,\sqrt{\frac{17+\sqrt{273}}{2}},1,0.3333333333333333,available
+0,63,test/intermediate_algebra/279.json,5,Intermediate Algebra,01,仅大模型正确,0,1,9,10,stop,stop,9,1,0.3333333333333333,available
+0,64,test/precalculus/1146.json,4,Precalculus,00,都错误,0,0,\frac{9}{16},-\frac{35}{64},stop,stop,\frac{9}{16},0,0.0,available
+0,68,test/precalculus/1313.json,4,Precalculus,01,仅大模型正确,0,1,67,46,stop,stop,67,0,0.0,available
+0,71,test/number_theory/516.json,4,Number Theory,01,仅大模型正确,0,1,2516,2516_8,stop,stop,2516,1,0.3333333333333333,available
+0,78,test/intermediate_algebra/47.json,4,Intermediate Algebra,01,仅大模型正确,0,1,"(-3,9)","(-2,1)",stop,stop,"(-3,9)",0,0.0,available
+0,80,test/intermediate_algebra/1849.json,5,Intermediate Algebra,00,都错误,0,0,2,1,stop,stop,2,0,0.0,available
+0,89,test/number_theory/357.json,4,Number Theory,01,仅大模型正确,0,1,3,21,stop,stop,3,1,0.3333333333333333,available
+0,92,test/counting_and_probability/377.json,4,Counting & Probability,01,仅大模型正确,0,1,\frac{28}{1250},\frac{2240}{78125},stop,stop,\frac{28}{1250},0,0.0,available
+0,94,test/prealgebra/1646.json,5,Prealgebra,00,都错误,0,0,70,50,stop,stop,70,2,0.6666666666666666,available
+0,96,test/intermediate_algebra/662.json,5,Intermediate Algebra,00,都错误,0,0,1,364,stop,length,1,0,0.0,available
+0,100,test/geometry/183.json,5,Geometry,00,都错误,0,0,105,432,stop,length,105,0,0.0,available
+0,101,test/intermediate_algebra/582.json,5,Intermediate Algebra,01,仅大模型正确,0,1,1,850,stop,stop,1,1,0.3333333333333333,available
+0,103,test/intermediate_algebra/558.json,5,Intermediate Algebra,00,都错误,0,0,"[1,4]","(2,4]",stop,stop,"[1,4]",1,0.3333333333333333,available
+0,104,test/intermediate_algebra/362.json,4,Intermediate Algebra,00,都错误,0,0,24,48,stop,stop,24,0,0.0,available
+0,105,test/prealgebra/1804.json,3,Prealgebra,01,仅大模型正确,0,1,13.5,29,stop,stop,13.5,0,0.0,available
+0,109,test/precalculus/44.json,5,Precalculus,00,都错误,0,0,45,35,stop,length,45,0,0.0,available
+0,110,test/intermediate_algebra/345.json,4,Intermediate Algebra,00,都错误,0,0,63,7.9,stop,length,63,0,0.0,available
+0,123,test/geometry/283.json,4,Geometry,01,仅大模型正确,0,1,4,8,stop,stop,4,0,0.0,available
+0,129,test/geometry/1140.json,5,Geometry,01,仅大模型正确,0,1,48,\frac{3840}{289},stop,stop,48,1,0.3333333333333333,available
+0,138,test/counting_and_probability/430.json,4,Counting & Probability,00,都错误,0,0,\frac{1}{6},\frac{1}{6},stop,stop,\frac{1}{6},0,0.0,available
+0,147,test/intermediate_algebra/966.json,5,Intermediate Algebra,00,都错误,0,0,18,5\cdot2^{7/4},stop,stop,18,0,0.0,available
+0,150,test/intermediate_algebra/964.json,5,Intermediate Algebra,00,都错误,0,0,3,4,stop,stop,3,0,0.0,available
+0,152,test/geometry/172.json,5,Geometry,00,都错误,0,0,16,\frac{64}{3},stop,stop,16,1,0.3333333333333333,available
+0,154,test/geometry/880.json,5,Geometry,00,都错误,0,0,2\sqrt{34},2\sqrt{34},stop,stop,2\sqrt{34},2,0.6666666666666666,available
+0,156,test/precalculus/117.json,3,Precalculus,00,都错误,0,0,90,0,stop,length,90,2,0.6666666666666666,available
+0,164,test/precalculus/697.json,2,Precalculus,00,都错误,0,0,-1,2,stop,length,-1,0,0.0,available
+0,168,test/counting_and_probability/181.json,5,Counting & Probability,00,都错误,0,0,13,12.3333,stop,length,13,0,0.0,available
+0,177,test/geometry/65.json,3,Geometry,01,仅大模型正确,0,1,60,30,stop,stop,60,1,0.3333333333333333,available
+0,184,test/intermediate_algebra/183.json,5,Intermediate Algebra,00,都错误,0,0,"(1,3)",2,stop,length,"(1,3)",0,0.0,available
+0,189,test/geometry/702.json,5,Geometry,00,都错误,0,0,50,5,stop,length,50,0,0.0,available
+0,190,test/counting_and_probability/51.json,5,Counting & Probability,01,仅大模型正确,0,1,\frac{25}{36},\frac{13}{18},stop,stop,\frac{25}{36},1,0.3333333333333333,available
+0,194,test/intermediate_algebra/2196.json,5,Intermediate Algebra,01,仅大模型正确,0,1,\frac{\sqrt[4]{2}}{8},\frac{1}{4},stop,stop,\frac{\sqrt[4]{2}}{8},2,0.6666666666666666,available
+0,204,test/intermediate_algebra/1510.json,5,Intermediate Algebra,01,仅大模型正确,0,1,16,0,stop,length,16,2,0.6666666666666666,available
+0,210,test/prealgebra/378.json,4,Prealgebra,01,仅大模型正确,0,1,8,10,stop,stop,8,0,0.0,available
+0,213,test/intermediate_algebra/102.json,4,Intermediate Algebra,01,仅大模型正确,0,1,1,2,stop,stop,1,3,1.0,available
+0,214,test/counting_and_probability/765.json,5,Counting & Probability,01,仅大模型正确,0,1,100,110,stop,stop,100,2,0.6666666666666666,available
+0,216,test/prealgebra/1436.json,4,Prealgebra,01,仅大模型正确,0,1,28,6,stop,stop,28,0,0.0,available
+0,219,test/counting_and_probability/282.json,4,Counting & Probability,01,仅大模型正确,0,1,\frac{9}{20},\frac{1}{2},stop,stop,\frac{9}{20},0,0.0,available
+0,220,test/prealgebra/1961.json,5,Prealgebra,01,仅大模型正确,0,1,\frac{2}{27},\frac{16}{27},stop,stop,\frac{2}{27},0,0.0,available
+0,222,test/geometry/547.json,4,Geometry,01,仅大模型正确,0,1,150,54,stop,stop,150,0,0.0,available
+0,228,test/precalculus/1056.json,4,Precalculus,01,仅大模型正确,0,1,288\pi\sqrt{2},288\pi,stop,stop,288\pi\sqrt{2},0,0.0,available
+0,239,test/geometry/229.json,5,Geometry,00,都错误,0,0,6,2,stop,length,6,0,0.0,available
+0,240,test/prealgebra/874.json,4,Prealgebra,00,都错误,0,0,52,16,stop,stop,52,1,0.3333333333333333,available
+0,242,test/algebra/2626.json,5,Algebra,00,都错误,0,0,26511,26491,stop,stop,26511,0,0.0,available
+0,245,test/intermediate_algebra/1210.json,4,Intermediate Algebra,00,都错误,0,0,-\frac{23}{2}x+\frac{1}{2},-4,stop,stop,-\frac{23}{2}x+\frac{1}{2},0,0.0,available
+0,246,test/algebra/1787.json,2,Algebra,01,仅大模型正确,0,1,18,8,stop,stop,18,0,0.0,available
+0,248,test/precalculus/920.json,4,Precalculus,00,都错误,0,0,\begin{pmatrix}7&14\\-2&-3\end{pmatrix},38,stop,length,\begin{pmatrix}7&14\\-2&-3\end{pmatrix},1,0.3333333333333333,available
+0,249,test/number_theory/1065.json,4,Number Theory,01,仅大模型正确,0,1,15,17,stop,stop,15,0,0.0,available
+0,257,test/geometry/473.json,4,Geometry,00,都错误,0,0,864,864,stop,stop,864,3,1.0,available
+0,264,test/geometry/826.json,5,Geometry,00,都错误,0,0,3,36,stop,length,3,0,0.0,available
+0,274,test/geometry/686.json,5,Geometry,00,都错误,0,0,36,36,stop,stop,36,3,1.0,available
+0,279,test/prealgebra/1512.json,5,Prealgebra,01,仅大模型正确,0,1,4\pi,7\pi,stop,stop,4\pi,1,0.3333333333333333,available
+0,284,test/precalculus/768.json,5,Precalculus,00,都错误,0,0,Nosolution,Nosolutions,stop,stop,Nosolution,0,0.0,available
+0,285,test/intermediate_algebra/1411.json,4,Intermediate Algebra,00,都错误,0,0,128,64,stop,length,128,0,0.0,available
+0,286,test/intermediate_algebra/960.json,5,Intermediate Algebra,00,都错误,0,0,\frac{1}{12},1,stop,stop,\frac{1}{12},0,0.0,available
+0,292,test/intermediate_algebra/90.json,4,Intermediate Algebra,01,仅大模型正确,0,1,256,898,stop,stop,256,0,0.0,available
+0,295,test/precalculus/1201.json,3,Precalculus,00,都错误,0,0,8,4,stop,stop,8,0,0.0,available
+0,296,test/intermediate_algebra/754.json,2,Intermediate Algebra,01,仅大模型正确,0,1,C,B,stop,stop,C,1,0.3333333333333333,available
+0,301,test/prealgebra/1044.json,5,Prealgebra,00,都错误,0,0,5.5,4.8,stop,stop,5.5,2,0.6666666666666666,available
+0,302,test/prealgebra/465.json,4,Prealgebra,01,仅大模型正确,0,1,15,5,stop,stop,15,0,0.0,available
+0,303,test/geometry/965.json,5,Geometry,00,都错误,0,0,21,6,stop,length,21,2,0.6666666666666666,available
+0,306,test/intermediate_algebra/1544.json,5,Intermediate Algebra,00,都错误,0,0,3,2,stop,stop,3,0,0.0,available
+0,308,test/geometry/711.json,5,Geometry,01,仅大模型正确,0,1,\frac{7\sqrt{3}}{2},2\sqrt{3}+1,stop,stop,\frac{7\sqrt{3}}{2},0,0.0,available
+0,309,test/number_theory/203.json,3,Number Theory,01,仅大模型正确,0,1,15,14,stop,stop,15,1,0.3333333333333333,available
+0,317,test/intermediate_algebra/2152.json,5,Intermediate Algebra,01,仅大模型正确,0,1,2,0,stop,stop,2,3,1.0,available
+0,327,test/intermediate_algebra/117.json,5,Intermediate Algebra,00,都错误,0,0,70,-4,stop,length,70,0,0.0,available
+0,332,test/intermediate_algebra/190.json,4,Intermediate Algebra,00,都错误,0,0,\frac{4\sqrt{3}}{3},3,stop,length,\frac{4\sqrt{3}}{3},1,0.3333333333333333,available
+0,340,test/precalculus/801.json,3,Precalculus,00,都错误,0,0,53,29,stop,length,53,0,0.0,available
+0,349,test/counting_and_probability/238.json,4,Counting & Probability,01,仅大模型正确,0,1,5040,10080,stop,stop,5040,1,0.3333333333333333,available
+0,351,test/precalculus/826.json,3,Precalculus,01,仅大模型正确,0,1,-\frac{1}{16},\frac{1}{16},stop,stop,-\frac{1}{16},3,1.0,available
+0,352,test/precalculus/1281.json,4,Precalculus,00,都错误,0,0,44,10\sqrt{5}+4,stop,stop,44,2,0.6666666666666666,available
+0,355,test/intermediate_algebra/1166.json,5,Intermediate Algebra,00,都错误,0,0,120,108,stop,stop,120,1,0.3333333333333333,available
+0,357,test/prealgebra/1353.json,5,Prealgebra,01,仅大模型正确,0,1,2,4,stop,stop,2,2,0.6666666666666666,available
+0,358,test/intermediate_algebra/860.json,2,Intermediate Algebra,01,仅大模型正确,0,1,circle,ellipse,stop,stop,circle,2,0.6666666666666666,available
+0,369,test/prealgebra/1187.json,2,Prealgebra,00,都错误,0,0,144,31.5,stop,stop,144,0,0.0,available
+0,371,test/intermediate_algebra/955.json,5,Intermediate Algebra,01,仅大模型正确,0,1,11,17,stop,stop,11,1,0.3333333333333333,available
+0,372,test/geometry/846.json,2,Geometry,00,都错误,0,0,70,50,stop,stop,70,2,0.6666666666666666,available
+0,377,test/number_theory/1185.json,3,Number Theory,01,仅大模型正确,0,1,4,6,stop,stop,4,0,0.0,available
+0,381,test/counting_and_probability/188.json,5,Counting & Probability,00,都错误,0,0,\frac{1}{18},\frac{1}{6},stop,stop,\frac{1}{18},0,0.0,available
+0,392,test/precalculus/902.json,5,Precalculus,00,都错误,0,0,324,63,length,length,324,0,0.0,available
+0,398,test/prealgebra/1991.json,4,Prealgebra,01,仅大模型正确,0,1,MCwin,Navin,stop,stop,MCwin,0,0.0,available
+0,400,test/geometry/817.json,5,Geometry,01,仅大模型正确,0,1,7,\frac{14}{3},stop,stop,7,1,0.3333333333333333,available
+0,401,test/intermediate_algebra/1806.json,5,Intermediate Algebra,01,仅大模型正确,0,1,3,\frac{13}{4},stop,stop,3,3,1.0,available
+0,403,test/number_theory/928.json,4,Number Theory,01,仅大模型正确,0,1,1,3,stop,stop,1,3,1.0,available
+0,412,test/intermediate_algebra/2146.json,4,Intermediate Algebra,01,仅大模型正确,0,1,451,406,stop,stop,451,0,0.0,available
+0,416,test/precalculus/681.json,3,Precalculus,01,仅大模型正确,0,1,\frac{\sqrt{5}+1}{4},\frac{1}{8},stop,stop,\frac{\sqrt{5}+1}{4},0,0.0,available
+0,419,test/precalculus/145.json,4,Precalculus,01,仅大模型正确,0,1,\begin{pmatrix}\frac{590}{7}\\\frac{190}{7}\\-\frac{160}{7}\end{pmatrix},\begin{pmatrix}-7\\16\\5\end{pmatrix},stop,stop,\begin{pmatrix}\frac{590}{7}\\\frac{190}{7}\\-\frac{160}{7}\end{pmatrix},0,0.0,available
+0,422,test/intermediate_algebra/2015.json,5,Intermediate Algebra,00,都错误,0,0,-2,"{-2,i,-i}",stop,stop,-2,1,0.3333333333333333,available
+0,423,test/number_theory/1002.json,5,Number Theory,01,仅大模型正确,0,1,1439,1440,stop,stop,1439,2,0.6666666666666666,available
+0,425,test/precalculus/1133.json,5,Precalculus,00,都错误,0,0,\frac{81R^2-5(^2+b^2+^2)}{12},\frac{81R^2-5(^2+b^2+^2)}{12},stop,stop,\frac{81R^2-5(^2+b^2+^2)}{12},0,0.0,available
+0,432,test/intermediate_algebra/1462.json,5,Intermediate Algebra,00,都错误,0,0,0,0,stop,length,0,2,0.6666666666666666,available
+0,444,test/counting_and_probability/731.json,5,Counting & Probability,00,都错误,0,0,\frac{1}{4k},\frac{1}{4},stop,stop,\frac{1}{4k},0,0.0,available
+0,445,test/intermediate_algebra/1779.json,4,Intermediate Algebra,00,都错误,0,0,24,24,stop,length,24,0,0.0,available
+0,456,test/intermediate_algebra/1102.json,1,Intermediate Algebra,00,都错误,0,0,"1,-2","1,-1,-2",stop,stop,"1,-2",3,1.0,available
+0,460,test/prealgebra/914.json,4,Prealgebra,00,都错误,0,0,40,105,stop,stop,40,0,0.0,available
+0,462,test/number_theory/679.json,2,Number Theory,01,仅大模型正确,0,1,2659,59,stop,stop,2659,0,0.0,available
+0,466,test/precalculus/703.json,5,Precalculus,01,仅大模型正确,0,1,16\pi,8\pi,stop,stop,16\pi,0,0.0,available
+0,467,test/prealgebra/1114.json,2,Prealgebra,00,都错误,0,0,15,15,stop,stop,15,3,1.0,available
+0,473,test/prealgebra/1930.json,5,Prealgebra,01,仅大模型正确,0,1,4,7,stop,stop,4,1,0.3333333333333333,available
+0,475,test/counting_and_probability/1003.json,5,Counting & Probability,00,都错误,0,0,173,0,stop,length,173,0,0.0,available
+0,477,test/number_theory/22.json,3,Number Theory,00,都错误,0,0,3,4,stop,stop,3,1,0.3333333333333333,available
+0,478,test/intermediate_algebra/1279.json,5,Intermediate Algebra,00,都错误,0,0,0,0,stop,stop,0,3,1.0,available
+0,481,test/intermediate_algebra/1467.json,5,Intermediate Algebra,00,都错误,0,0,16n^4+\frac{1}{4},2n^2+2n+1,stop,stop,16n^4+\frac{1}{4},0,0.0,available
+0,485,test/counting_and_probability/199.json,2,Counting & Probability,01,仅大模型正确,0,1,12,13,stop,stop,12,3,1.0,available
+0,490,test/intermediate_algebra/1350.json,5,Intermediate Algebra,00,都错误,0,0,22,1,stop,length,22,0,0.0,available
+0,491,test/prealgebra/1128.json,5,Prealgebra,00,都错误,0,0,972,96,stop,stop,972,0,0.0,available
+0,494,test/intermediate_algebra/1930.json,5,Intermediate Algebra,00,都错误,0,0,2,0,stop,stop,2,0,0.0,available
+0,497,test/geometry/561.json,5,Geometry,01,仅大模型正确,0,1,\frac{5}{2}+\sqrt{2},\frac{7}{2},stop,stop,\frac{5}{2}+\sqrt{2},0,0.0,available
+0,498,test/intermediate_algebra/1508.json,5,Intermediate Algebra,00,都错误,0,0,1,-3,stop,length,1,2,0.6666666666666666,available
+1,9,test/prealgebra/1139.json,5,Prealgebra,01,仅大模型正确,0,1,3,4,stop,stop,3,0,0.0,available
+1,11,test/intermediate_algebra/1197.json,5,Intermediate Algebra,00,都错误,0,0,\frac{1}{7},\frac{43}{3528},stop,stop,\frac{1}{7},0,0.0,available
+1,14,test/precalculus/1303.json,1,Precalculus,01,仅大模型正确,0,1,10,\sqrt{51},stop,stop,10,3,1.0,available
+1,17,test/precalculus/1199.json,4,Precalculus,00,都错误,0,0,\frac{\pi}{6},-\pi,stop,stop,\frac{\pi}{6},0,0.0,available
+1,21,test/intermediate_algebra/607.json,3,Intermediate Algebra,01,仅大模型正确,0,1,13343,13535,stop,stop,13343,0,0.0,available
+1,22,test/algebra/1837.json,5,Algebra,01,仅大模型正确,0,1,1,5,stop,stop,1,0,0.0,available
+1,25,test/intermediate_algebra/1388.json,5,Intermediate Algebra,00,都错误,0,0,0,0,stop,stop,0,1,0.3333333333333333,available
+1,33,test/algebra/1072.json,4,Algebra,01,仅大模型正确,0,1,\frac{3}{5},\frac{243}{625},stop,stop,\frac{3}{5},0,0.0,available
+1,36,test/intermediate_algebra/428.json,2,Intermediate Algebra,01,仅大模型正确,0,1,5,"3,5,7",stop,stop,5,1,0.3333333333333333,available
+1,41,test/geometry/627.json,4,Geometry,01,仅大模型正确,0,1,8,17,stop,stop,8,0,0.0,available
+1,43,test/intermediate_algebra/1454.json,5,Intermediate Algebra,00,都错误,0,0,20\sqrt{5}+10\sqrt{34},20\sqrt{5}+10\sqrt{17}+10,stop,stop,20\sqrt{5}+10\sqrt{34},1,0.3333333333333333,available
+1,50,test/number_theory/1055.json,5,Number Theory,01,仅大模型正确,0,1,29,203,stop,stop,29,0,0.0,available
+1,58,test/algebra/722.json,1,Algebra,00,都错误,0,0,10000,10000,stop,stop,10000,2,0.6666666666666666,available
+1,60,test/intermediate_algebra/956.json,5,Intermediate Algebra,00,都错误,0,0,"(-\frac{13}{4},43,-\frac{789}{4})","(-1,0,0)",stop,stop,"(-\frac{13}{4},43,-\frac{789}{4})",0,0.0,available
+1,62,test/precalculus/675.json,5,Precalculus,01,仅大模型正确,0,1,2,4,stop,stop,2,0,0.0,available
+1,64,test/precalculus/1146.json,4,Precalculus,00,都错误,0,0,-\frac{85}{64},0,stop,length,-\frac{85}{64},0,0.0,available
+1,68,test/precalculus/1313.json,4,Precalculus,01,仅大模型正确,0,1,9,46,stop,stop,9,0,0.0,available
+1,71,test/number_theory/516.json,4,Number Theory,01,仅大模型正确,0,1,2516,2516_8,stop,stop,2516,1,0.3333333333333333,available
+1,80,test/intermediate_algebra/1849.json,5,Intermediate Algebra,00,都错误,0,0,1,1,stop,stop,1,2,0.6666666666666666,available
+1,82,test/algebra/2700.json,5,Algebra,01,仅大模型正确,0,1,\frac{3}{5},\frac{3}{2},stop,stop,\frac{3}{5},1,0.3333333333333333,available
+1,91,test/algebra/2023.json,3,Algebra,01,仅大模型正确,0,1,3,1,stop,stop,3,0,0.0,available
+1,92,test/counting_and_probability/377.json,4,Counting & Probability,01,仅大模型正确,0,1,\frac{224}{78125},\frac{2240}{78125},stop,stop,\frac{224}{78125},1,0.3333333333333333,available
+1,94,test/prealgebra/1646.json,5,Prealgebra,00,都错误,0,0,130,50,stop,stop,130,0,0.0,available
+1,96,test/intermediate_algebra/662.json,5,Intermediate Algebra,00,都错误,0,0,"-1,-3,-5,-7,-9",1,stop,length,"-1,-3,-5,-7,-9",0,0.0,available
+1,100,test/geometry/183.json,5,Geometry,00,都错误,0,0,72.5,100,stop,length,72.5,1,0.3333333333333333,available
+1,101,test/intermediate_algebra/582.json,5,Intermediate Algebra,01,仅大模型正确,0,1,840,850,stop,stop,840,0,0.0,available
+1,103,test/intermediate_algebra/558.json,5,Intermediate Algebra,00,都错误,0,0,"(1,4]",4,stop,stop,"(1,4]",1,0.3333333333333333,available
+1,104,test/intermediate_algebra/362.json,4,Intermediate Algebra,00,都错误,0,0,38,80,stop,stop,38,0,0.0,available
+1,105,test/prealgebra/1804.json,3,Prealgebra,01,仅大模型正确,0,1,15.5,29,stop,stop,15.5,0,0.0,available
+1,109,test/precalculus/44.json,5,Precalculus,00,都错误,0,0,10,3,stop,length,10,0,0.0,available
+1,110,test/intermediate_algebra/345.json,4,Intermediate Algebra,00,都错误,0,0,1,3,stop,length,1,1,0.3333333333333333,available
+1,115,test/counting_and_probability/1060.json,2,Counting & Probability,00,都错误,0,0,90720,420,stop,stop,90720,0,0.0,available
+1,120,test/intermediate_algebra/128.json,2,Intermediate Algebra,00,都错误,0,0,odd,odd,stop,stop,odd,2,0.6666666666666666,available
+1,123,test/geometry/283.json,4,Geometry,01,仅大模型正确,0,1,0,8,stop,stop,0,0,0.0,available
+1,126,test/intermediate_algebra/1063.json,4,Intermediate Algebra,00,都错误,0,0,-i,67414968,stop,length,-i,0,0.0,available
+1,129,test/geometry/1140.json,5,Geometry,01,仅大模型正确,0,1,30,\frac{3840}{289},stop,stop,30,0,0.0,available
+1,138,test/counting_and_probability/430.json,4,Counting & Probability,00,都错误,0,0,\frac{1}{5},\frac{5}{6},stop,stop,\frac{1}{5},1,0.3333333333333333,available
+1,147,test/intermediate_algebra/966.json,5,Intermediate Algebra,00,都错误,0,0,28,10,stop,stop,28,0,0.0,available
+1,150,test/intermediate_algebra/964.json,5,Intermediate Algebra,00,都错误,0,0,4,4,stop,stop,4,0,0.0,available
+1,154,test/geometry/880.json,5,Geometry,00,都错误,0,0,\sqrt{101},2\sqrt{35},stop,stop,\sqrt{101},0,0.0,available
+1,156,test/precalculus/117.json,3,Precalculus,00,都错误,0,0,45,70,stop,stop,45,0,0.0,available
+1,164,test/precalculus/697.json,2,Precalculus,00,都错误,0,0,1,3,stop,stop,1,0,0.0,available
+1,168,test/counting_and_probability/181.json,5,Counting & Probability,00,都错误,0,0,7,-3,stop,length,7,0,0.0,available
+1,177,test/geometry/65.json,3,Geometry,00,都错误,0,0,45,60,stop,stop,45,1,0.3333333333333333,available
+1,189,test/geometry/702.json,5,Geometry,00,都错误,0,0,20,0,stop,length,20,0,0.0,available
+1,194,test/intermediate_algebra/2196.json,5,Intermediate Algebra,01,仅大模型正确,0,1,\frac{1}{7},\frac{1}{4},stop,stop,\frac{1}{7},0,0.0,available
+1,204,test/intermediate_algebra/1510.json,5,Intermediate Algebra,00,都错误,0,0,16,16,stop,stop,16,2,0.6666666666666666,available
+1,213,test/intermediate_algebra/102.json,4,Intermediate Algebra,01,仅大模型正确,0,1,1,2,stop,stop,1,3,1.0,available
+1,214,test/counting_and_probability/765.json,5,Counting & Probability,01,仅大模型正确,0,1,100,110,stop,stop,100,2,0.6666666666666666,available
+1,216,test/prealgebra/1436.json,4,Prealgebra,01,仅大模型正确,0,1,24,6,stop,stop,24,0,0.0,available
+1,219,test/counting_and_probability/282.json,4,Counting & Probability,01,仅大模型正确,0,1,\frac{7}{16},\frac{1}{2},stop,stop,\frac{7}{16},0,0.0,available
+1,222,test/geometry/547.json,4,Geometry,00,都错误,0,0,\frac{6}{25},150,stop,stop,\frac{6}{25},0,0.0,available
+1,223,test/number_theory/183.json,3,Number Theory,01,仅大模型正确,0,1,10,14,stop,stop,10,0,0.0,available
+1,224,test/precalculus/190.json,4,Precalculus,01,仅大模型正确,0,1,\frac{1}{16},\frac{9}{256},stop,stop,\frac{1}{16},1,0.3333333333333333,available
+1,232,test/intermediate_algebra/1354.json,5,Intermediate Algebra,01,仅大模型正确,0,1,998,998.5,stop,stop,998,0,0.0,available
+1,236,test/precalculus/989.json,4,Precalculus,00,都错误,0,0,8,9,stop,stop,8,0,0.0,available
+1,239,test/geometry/229.json,5,Geometry,00,都错误,0,0,65,2,stop,length,65,0,0.0,available
+1,240,test/prealgebra/874.json,4,Prealgebra,00,都错误,0,0,42.67,52,stop,stop,42.67,0,0.0,available
+1,242,test/algebra/2626.json,5,Algebra,00,都错误,0,0,43464,25228,stop,stop,43464,0,0.0,available
+1,245,test/intermediate_algebra/1210.json,4,Intermediate Algebra,00,都错误,0,0,-\frac{29}{2}x+\frac{7}{2},2x-4,stop,stop,-\frac{29}{2}x+\frac{7}{2},0,0.0,available
+1,248,test/precalculus/920.json,4,Precalculus,00,都错误,0,0,\begin{pmatrix}-2&0\\0&-2\end{pmatrix},-\begin{pmatrix}1&0\\0&1\end{pmatrix},stop,stop,\begin{pmatrix}-2&0\\0&-2\end{pmatrix},0,0.0,available
+1,257,test/geometry/473.json,4,Geometry,00,都错误,0,0,864,864,stop,stop,864,3,1.0,available
+1,264,test/geometry/826.json,5,Geometry,00,都错误,0,0,5,3,stop,length,5,0,0.0,available
+1,274,test/geometry/686.json,5,Geometry,00,都错误,0,0,36,36+2\pi,stop,stop,36,3,1.0,available
+1,284,test/precalculus/768.json,5,Precalculus,00,都错误,0,0,"3+2\sqrt{2},3-2\sqrt{2}","3+2\sqrt{2},3-2\sqrt{2}",stop,stop,"3+2\sqrt{2},3-2\sqrt{2}",0,0.0,available
+1,285,test/intermediate_algebra/1411.json,4,Intermediate Algebra,00,都错误,0,0,4,9,stop,length,4,0,0.0,available
+1,286,test/intermediate_algebra/960.json,5,Intermediate Algebra,00,都错误,0,0,\frac{2}{13},25,stop,length,\frac{2}{13},0,0.0,available
+1,291,test/counting_and_probability/25149.json,4,Counting & Probability,01,仅大模型正确,0,1,81,63,stop,stop,81,0,0.0,available
+1,292,test/intermediate_algebra/90.json,4,Intermediate Algebra,00,都错误,0,0,951,522,stop,stop,951,0,0.0,available
+1,295,test/precalculus/1201.json,3,Precalculus,00,都错误,0,0,5,0,stop,length,5,1,0.3333333333333333,available
+1,296,test/intermediate_algebra/754.json,2,Intermediate Algebra,01,仅大模型正确,0,1,C,B,stop,stop,C,1,0.3333333333333333,available
+1,301,test/prealgebra/1044.json,5,Prealgebra,00,都错误,0,0,5.5,4.8,stop,stop,5.5,2,0.6666666666666666,available
+1,302,test/prealgebra/465.json,4,Prealgebra,00,都错误,0,0,4,40,stop,stop,4,1,0.3333333333333333,available
+1,303,test/geometry/965.json,5,Geometry,00,都错误,0,0,21,42,stop,length,21,2,0.6666666666666666,available
+1,306,test/intermediate_algebra/1544.json,5,Intermediate Algebra,00,都错误,0,0,1,1,stop,stop,1,0,0.0,available
+1,308,test/geometry/711.json,5,Geometry,00,都错误,0,0,\frac{7\sqrt{3}}{4},7\sqrt{3},stop,stop,\frac{7\sqrt{3}}{4},0,0.0,available
+1,317,test/intermediate_algebra/2152.json,5,Intermediate Algebra,01,仅大模型正确,0,1,2,0,stop,stop,2,3,1.0,available
+1,320,test/geometry/947.json,5,Geometry,01,仅大模型正确,0,1,\frac{24}{25},-\frac{24}{25},stop,stop,\frac{24}{25},0,0.0,available
+1,324,test/geometry/465.json,4,Geometry,01,仅大模型正确,0,1,200,120,stop,stop,200,0,0.0,available
+1,327,test/intermediate_algebra/117.json,5,Intermediate Algebra,00,都错误,0,0,25,\frac{167}{2},stop,stop,25,0,0.0,available
+1,331,test/algebra/509.json,5,Algebra,01,仅大模型正确,0,1,\frac{\sqrt{179}}{6},\frac{13}{6},stop,stop,\frac{\sqrt{179}}{6},0,0.0,available
+1,339,test/intermediate_algebra/1566.json,3,Intermediate Algebra,01,仅大模型正确,0,1,k,2k,stop,stop,k,0,0.0,available
+1,340,test/precalculus/801.json,3,Precalculus,00,都错误,0,0,41,6,stop,stop,41,0,0.0,available
+1,349,test/counting_and_probability/238.json,4,Counting & Probability,01,仅大模型正确,0,1,1260,10080,stop,stop,1260,1,0.3333333333333333,available
+1,351,test/precalculus/826.json,3,Precalculus,01,仅大模型正确,0,1,-\frac{1}{16},\frac{1}{16},stop,stop,-\frac{1}{16},3,1.0,available
+1,352,test/precalculus/1281.json,4,Precalculus,00,都错误,0,0,48,22\sqrt{2}+22,stop,stop,48,0,0.0,available
+1,354,test/algebra/529.json,4,Algebra,01,仅大模型正确,0,1,80,81,stop,stop,80,0,0.0,available
+1,355,test/intermediate_algebra/1166.json,5,Intermediate Algebra,00,都错误,0,0,30,8,stop,length,30,0,0.0,available
+1,358,test/intermediate_algebra/860.json,2,Intermediate Algebra,00,都错误,0,0,circle,circle,stop,stop,circle,2,0.6666666666666666,available
+1,359,test/intermediate_algebra/1407.json,4,Intermediate Algebra,00,都错误,0,0,0,28,stop,length,0,0,0.0,available
+1,365,test/number_theory/820.json,5,Number Theory,01,仅大模型正确,0,1,16,8,stop,stop,16,0,0.0,available
+1,369,test/prealgebra/1187.json,2,Prealgebra,01,仅大模型正确,0,1,30,21,stop,stop,30,0,0.0,available
+1,371,test/intermediate_algebra/955.json,5,Intermediate Algebra,01,仅大模型正确,0,1,4,17,stop,stop,4,0,0.0,available
+1,372,test/geometry/846.json,2,Geometry,00,都错误,0,0,70,80,stop,stop,70,2,0.6666666666666666,available
+1,376,test/geometry/538.json,4,Geometry,01,仅大模型正确,0,1,"(25-\sqrt{305},-19+\sqrt{305})","(8,-2)",stop,stop,"(25-\sqrt{305},-19+\sqrt{305})",0,0.0,available
+1,377,test/number_theory/1185.json,3,Number Theory,01,仅大模型正确,0,1,0,6,stop,stop,0,0,0.0,available
+1,390,test/algebra/853.json,5,Algebra,01,仅大模型正确,0,1,4,12,stop,stop,4,1,0.3333333333333333,available
+1,392,test/precalculus/902.json,5,Precalculus,00,都错误,0,0,5,432,stop,length,5,0,0.0,available
+1,398,test/prealgebra/1991.json,4,Prealgebra,01,仅大模型正确,0,1,追in,Navin,stop,stop,追in,0,0.0,available
+1,400,test/geometry/817.json,5,Geometry,00,都错误,0,0,7(\sqrt{2}-1),\frac{14}{5},stop,stop,7(\sqrt{2}-1),0,0.0,available
+1,401,test/intermediate_algebra/1806.json,5,Intermediate Algebra,00,都错误,0,0,3,3,stop,stop,3,3,1.0,available
+1,403,test/number_theory/928.json,4,Number Theory,01,仅大模型正确,0,1,1,3,stop,stop,1,3,1.0,available
+1,408,test/precalculus/398.json,5,Precalculus,00,都错误,0,0,\begin{pmatrix}-\frac{17}{5}\\-\frac{6}{5}\end{pmatrix},\begin{pmatrix}4\\-1\end{pmatrix},stop,stop,\begin{pmatrix}-\frac{17}{5}\\-\frac{6}{5}\end{pmatrix},0,0.0,available
+1,412,test/intermediate_algebra/2146.json,4,Intermediate Algebra,00,都错误,0,0,431,413,stop,stop,431,0,0.0,available
+1,419,test/precalculus/145.json,4,Precalculus,01,仅大模型正确,0,1,\begin{pmatrix}-30\\-180\\495\end{pmatrix},\begin{pmatrix}-7\\16\\5\end{pmatrix},stop,stop,\begin{pmatrix}-30\\-180\\495\end{pmatrix},0,0.0,available
+1,422,test/intermediate_algebra/2015.json,5,Intermediate Algebra,00,都错误,0,0,-2,-1,stop,stop,-2,1,0.3333333333333333,available
+1,423,test/number_theory/1002.json,5,Number Theory,00,都错误,0,0,1439,7,stop,length,1439,2,0.6666666666666666,available
+1,425,test/precalculus/1133.json,5,Precalculus,00,都错误,0,0,\frac{^2+b^2+^2}{3},\frac{^2+b^2+^2}{4},stop,stop,\frac{^2+b^2+^2}{3},0,0.0,available
+1,428,test/intermediate_algebra/121.json,4,Intermediate Algebra,01,仅大模型正确,0,1,132,64,stop,stop,132,0,0.0,available
+1,431,test/precalculus/499.json,4,Precalculus,00,都错误,0,0,"[\frac{\pi^2}{8},\frac{\pi^2}{2}]","[\frac{\pi^2}{8},\frac{\pi^2}{4}]",stop,stop,"[\frac{\pi^2}{8},\frac{\pi^2}{2}]",1,0.3333333333333333,available
+1,432,test/intermediate_algebra/1462.json,5,Intermediate Algebra,00,都错误,0,0,-657404,1,stop,length,-657404,0,0.0,available
+1,444,test/counting_and_probability/731.json,5,Counting & Probability,00,都错误,0,0,\frac{1}{4},\frac{3k^2-1}{6k^2},stop,stop,\frac{1}{4},2,0.6666666666666666,available
+1,445,test/intermediate_algebra/1779.json,4,Intermediate Algebra,00,都错误,0,0,8,-2,stop,length,8,1,0.3333333333333333,available
+1,450,test/number_theory/13.json,5,Number Theory,01,仅大模型正确,0,1,128,64,stop,stop,128,0,0.0,available
+1,456,test/intermediate_algebra/1102.json,1,Intermediate Algebra,00,都错误,0,0,"1,-2","1,-1,-2",stop,stop,"1,-2",3,1.0,available
+1,458,test/prealgebra/805.json,3,Prealgebra,01,仅大模型正确,0,1,47,41,stop,stop,47,0,0.0,available
+1,467,test/prealgebra/1114.json,2,Prealgebra,00,都错误,0,0,15,15,stop,stop,15,3,1.0,available
+1,475,test/counting_and_probability/1003.json,5,Counting & Probability,01,仅大模型正确,0,1,4,29,stop,stop,4,0,0.0,available
+1,478,test/intermediate_algebra/1279.json,5,Intermediate Algebra,00,都错误,0,0,0,0,stop,stop,0,3,1.0,available
+1,481,test/intermediate_algebra/1467.json,5,Intermediate Algebra,00,都错误,0,0,4n^2,10,stop,length,4n^2,0,0.0,available
+1,482,test/number_theory/1090.json,5,Number Theory,01,仅大模型正确,0,1,1010,202,stop,stop,1010,0,0.0,available
+1,485,test/counting_and_probability/199.json,2,Counting & Probability,00,都错误,0,0,12,12,stop,stop,12,3,1.0,available
+1,490,test/intermediate_algebra/1350.json,5,Intermediate Algebra,01,仅大模型正确,0,1,2,14,stop,stop,2,0,0.0,available
+1,491,test/prealgebra/1128.json,5,Prealgebra,01,仅大模型正确,0,1,144,64,stop,stop,144,0,0.0,available
+1,493,test/algebra/2779.json,5,Algebra,01,仅大模型正确,0,1,26,20,stop,stop,26,1,0.3333333333333333,available
+1,494,test/intermediate_algebra/1930.json,5,Intermediate Algebra,00,都错误,0,0,\frac{1}{2},\frac{\pi}{4},stop,stop,\frac{1}{2},1,0.3333333333333333,available
+1,497,test/geometry/561.json,5,Geometry,00,都错误,0,0,2,3,stop,stop,2,1,0.3333333333333333,available
+1,498,test/intermediate_algebra/1508.json,5,Intermediate Algebra,00,都错误,0,0,1,1,stop,stop,1,2,0.6666666666666666,available
+2,9,test/prealgebra/1139.json,5,Prealgebra,00,都错误,0,0,8,122,stop,length,8,0,0.0,available
+2,11,test/intermediate_algebra/1197.json,5,Intermediate Algebra,00,都错误,0,0,\frac{1}{63},0,stop,length,\frac{1}{63},0,0.0,available
+2,14,test/precalculus/1303.json,1,Precalculus,01,仅大模型正确,0,1,10,\sqrt{51},stop,stop,10,3,1.0,available
+2,15,test/precalculus/990.json,5,Precalculus,01,仅大模型正确,0,1,3-2i,6-5i,stop,stop,3-2i,0,0.0,available
+2,18,test/geometry/434.json,1,Geometry,01,仅大模型正确,0,1,62,28,stop,stop,62,0,0.0,available
+2,24,test/algebra/2427.json,5,Algebra,01,仅大模型正确,0,1,31,10,stop,stop,31,0,0.0,available
+2,25,test/intermediate_algebra/1388.json,5,Intermediate Algebra,00,都错误,0,0,0,"-2,1",stop,stop,0,1,0.3333333333333333,available
+2,26,test/counting_and_probability/525.json,5,Counting & Probability,00,都错误,0,0,576,240,stop,stop,576,1,0.3333333333333333,available
+2,33,test/algebra/1072.json,4,Algebra,01,仅大模型正确,0,1,\frac{81}{205},\frac{243}{625},stop,stop,\frac{81}{205},1,0.3333333333333333,available
+2,41,test/geometry/627.json,4,Geometry,00,都错误,0,0,7,7,stop,length,7,0,0.0,available
+2,43,test/intermediate_algebra/1454.json,5,Intermediate Algebra,00,都错误,0,0,50,10\sqrt{5}+10\sqrt{34},stop,stop,50,0,0.0,available
+2,58,test/algebra/722.json,1,Algebra,00,都错误,0,0,10000,10000,stop,stop,10000,2,0.6666666666666666,available
+2,60,test/intermediate_algebra/956.json,5,Intermediate Algebra,00,都错误,0,0,"(0,-1,-1)","(-1,1,0)",stop,stop,"(0,-1,-1)",0,0.0,available
+2,63,test/intermediate_algebra/279.json,5,Intermediate Algebra,01,仅大模型正确,0,1,9,10,stop,stop,9,1,0.3333333333333333,available
+2,64,test/precalculus/1146.json,4,Precalculus,00,都错误,0,0,-\frac{35}{64},-\frac{35}{16},stop,stop,-\frac{35}{64},0,0.0,available
+2,68,test/precalculus/1313.json,4,Precalculus,01,仅大模型正确,0,1,45,46,stop,stop,45,0,0.0,available
+2,71,test/number_theory/516.json,4,Number Theory,01,仅大模型正确,0,1,12470_8,2516_8,stop,stop,12470_8,0,0.0,available
+2,80,test/intermediate_algebra/1849.json,5,Intermediate Algebra,00,都错误,0,0,1,1,stop,stop,1,2,0.6666666666666666,available
+2,82,test/algebra/2700.json,5,Algebra,01,仅大模型正确,0,1,\frac{3}{5},\frac{3}{2},stop,stop,\frac{3}{5},1,0.3333333333333333,available
+2,89,test/number_theory/357.json,4,Number Theory,01,仅大模型正确,0,1,3,21,stop,stop,3,1,0.3333333333333333,available
+2,94,test/prealgebra/1646.json,5,Prealgebra,00,都错误,0,0,70,65,stop,stop,70,2,0.6666666666666666,available
+2,96,test/intermediate_algebra/662.json,5,Intermediate Algebra,00,都错误,0,0,5,"2,-2,6",stop,stop,5,1,0.3333333333333333,available
+2,100,test/geometry/183.json,5,Geometry,00,都错误,0,0,65,75,stop,stop,65,0,0.0,available
+2,101,test/intermediate_algebra/582.json,5,Intermediate Algebra,01,仅大模型正确,0,1,170,850,stop,stop,170,0,0.0,available
+2,103,test/intermediate_algebra/558.json,5,Intermediate Algebra,00,都错误,0,0,"(1,4]",3,stop,stop,"(1,4]",1,0.3333333333333333,available
+2,105,test/prealgebra/1804.json,3,Prealgebra,01,仅大模型正确,0,1,13,29,stop,stop,13,1,0.3333333333333333,available
+2,109,test/precalculus/44.json,5,Precalculus,00,都错误,0,0,35,1,stop,length,35,0,0.0,available
+2,110,test/intermediate_algebra/345.json,4,Intermediate Algebra,00,都错误,0,0,3,2,stop,length,3,0,0.0,available
+2,115,test/counting_and_probability/1060.json,2,Counting & Probability,01,仅大模型正确,0,1,840,1260,stop,stop,840,0,0.0,available
+2,120,test/intermediate_algebra/128.json,2,Intermediate Algebra,01,仅大模型正确,0,1,odd,even,stop,stop,odd,2,0.6666666666666666,available
+2,123,test/geometry/283.json,4,Geometry,01,仅大模型正确,0,1,6,8,stop,stop,6,1,0.3333333333333333,available
+2,126,test/intermediate_algebra/1063.json,4,Intermediate Algebra,01,仅大模型正确,0,1,1+\frac{1}{37265}i,1+274i,stop,stop,1+\frac{1}{37265}i,0,0.0,available
+2,129,test/geometry/1140.json,5,Geometry,01,仅大模型正确,0,1,48,\frac{3840}{289},stop,stop,48,1,0.3333333333333333,available
+2,138,test/counting_and_probability/430.json,4,Counting & Probability,00,都错误,0,0,\frac{5}{36},\frac{1}{6},stop,stop,\frac{5}{36},0,0.0,available
+2,147,test/intermediate_algebra/966.json,5,Intermediate Algebra,00,都错误,0,0,12,289,stop,stop,12,0,0.0,available
+2,150,test/intermediate_algebra/964.json,5,Intermediate Algebra,00,都错误,0,0,0,3,stop,stop,0,1,0.3333333333333333,available
+2,151,test/precalculus/986.json,5,Precalculus,01,仅大模型正确,0,1,48,144,stop,stop,48,0,0.0,available
+2,152,test/geometry/172.json,5,Geometry,00,都错误,0,0,36,32,length,stop,36,0,0.0,available
+2,154,test/geometry/880.json,5,Geometry,00,都错误,0,0,2\sqrt{34},2\sqrt{109},stop,stop,2\sqrt{34},2,0.6666666666666666,available
+2,156,test/precalculus/117.json,3,Precalculus,00,都错误,0,0,90,60,stop,stop,90,2,0.6666666666666666,available
+2,164,test/precalculus/697.json,2,Precalculus,00,都错误,0,0,\sqrt{3},10,stop,length,\sqrt{3},0,0.0,available
+2,168,test/counting_and_probability/181.json,5,Counting & Probability,00,都错误,0,0,12,6,stop,length,12,1,0.3333333333333333,available
+2,170,test/algebra/297.json,5,Algebra,00,都错误,0,0,3132,5408,stop,stop,3132,0,0.0,available
+2,176,test/number_theory/598.json,3,Number Theory,01,仅大模型正确,0,1,0.0065625,0.0000672,stop,stop,0.0065625,0,0.0,available
+2,177,test/geometry/65.json,3,Geometry,00,都错误,0,0,60,7,stop,length,60,1,0.3333333333333333,available
+2,188,test/algebra/733.json,5,Algebra,01,仅大模型正确,0,1,\frac{3+\sqrt{33}}{2},6,stop,stop,\frac{3+\sqrt{33}}{2},0,0.0,available
+2,189,test/geometry/702.json,5,Geometry,00,都错误,0,0,326,2,stop,length,326,0,0.0,available
+2,194,test/intermediate_algebra/2196.json,5,Intermediate Algebra,00,都错误,0,0,\frac{\sqrt[4]{2}}{8},\frac{1}{4\sqrt[4]{8}},stop,stop,\frac{\sqrt[4]{2}}{8},2,0.6666666666666666,available
+2,204,test/intermediate_algebra/1510.json,5,Intermediate Algebra,00,都错误,0,0,16,2,stop,length,16,2,0.6666666666666666,available
+2,213,test/intermediate_algebra/102.json,4,Intermediate Algebra,01,仅大模型正确,0,1,1,2,stop,stop,1,3,1.0,available
+2,214,test/counting_and_probability/765.json,5,Counting & Probability,01,仅大模型正确,0,1,100,110,stop,stop,100,2,0.6666666666666666,available
+2,219,test/counting_and_probability/282.json,4,Counting & Probability,01,仅大模型正确,0,1,\frac{1}{3},\frac{1}{2},stop,stop,\frac{1}{3},1,0.3333333333333333,available
+2,222,test/geometry/547.json,4,Geometry,00,都错误,0,0,96,150,stop,stop,96,1,0.3333333333333333,available
+2,223,test/number_theory/183.json,3,Number Theory,01,仅大模型正确,0,1,20,14,stop,stop,20,0,0.0,available
+2,224,test/precalculus/190.json,4,Precalculus,01,仅大模型正确,0,1,\frac{1}{16},\frac{9}{256},stop,stop,\frac{1}{16},1,0.3333333333333333,available
+2,234,test/intermediate_algebra/1837.json,3,Intermediate Algebra,01,仅大模型正确,0,1,49,34,stop,stop,49,0,0.0,available
+2,236,test/precalculus/989.json,4,Precalculus,00,都错误,0,0,6,9,stop,stop,6,0,0.0,available
+2,239,test/geometry/229.json,5,Geometry,00,都错误,0,0,14,2,stop,length,14,1,0.3333333333333333,available
+2,240,test/prealgebra/874.json,4,Prealgebra,00,都错误,0,0,26,52,stop,stop,26,0,0.0,available
+2,245,test/intermediate_algebra/1210.json,4,Intermediate Algebra,00,都错误,0,0,3x+1,3x-3,stop,stop,3x+1,0,0.0,available
+2,246,test/algebra/1787.json,2,Algebra,01,仅大模型正确,0,1,1,8,stop,stop,1,0,0.0,available
+2,249,test/number_theory/1065.json,4,Number Theory,01,仅大模型正确,0,1,11,17,stop,stop,11,0,0.0,available
+2,251,test/counting_and_probability/894.json,5,Counting & Probability,01,仅大模型正确,0,1,534,540,stop,stop,534,0,0.0,available
+2,257,test/geometry/473.json,4,Geometry,00,都错误,0,0,864,864,stop,stop,864,3,1.0,available
+2,264,test/geometry/826.json,5,Geometry,00,都错误,0,0,10\frac{3}{10},3\sqrt{2},stop,stop,10\frac{3}{10},0,0.0,available
+2,274,test/geometry/686.json,5,Geometry,01,仅大模型正确,0,1,36,18+2\pi,stop,stop,36,3,1.0,available
+2,282,test/algebra/1184.json,4,Algebra,01,仅大模型正确,0,1,497,129,stop,stop,497,1,0.3333333333333333,available
+2,284,test/precalculus/768.json,5,Precalculus,00,都错误,0,0,Nosolutions,Nosolution,stop,stop,Nosolutions,1,0.3333333333333333,available
+2,285,test/intermediate_algebra/1411.json,4,Intermediate Algebra,00,都错误,0,0,120,224,stop,length,120,0,0.0,available
+2,286,test/intermediate_algebra/960.json,5,Intermediate Algebra,00,都错误,0,0,\frac{105}{4},5,stop,length,\frac{105}{4},0,0.0,available
+2,288,test/precalculus/1172.json,5,Precalculus,01,仅大模型正确,0,1,\sqrt{138},7,stop,stop,\sqrt{138},0,0.0,available
+2,291,test/counting_and_probability/25149.json,4,Counting & Probability,01,仅大模型正确,0,1,56,63,stop,stop,56,0,0.0,available
+2,292,test/intermediate_algebra/90.json,4,Intermediate Algebra,00,都错误,0,0,0,1260,stop,stop,0,0,0.0,available
+2,294,test/number_theory/488.json,4,Number Theory,00,都错误,0,0,74,71,stop,stop,74,0,0.0,available
+2,295,test/precalculus/1201.json,3,Precalculus,00,都错误,0,0,4,7,stop,stop,4,0,0.0,available
+2,296,test/intermediate_algebra/754.json,2,Intermediate Algebra,01,仅大模型正确,0,1,E,B,stop,stop,E,0,0.0,available
+2,299,test/geometry/1097.json,4,Geometry,01,仅大模型正确,0,1,56,63,stop,stop,56,0,0.0,available
+2,301,test/prealgebra/1044.json,5,Prealgebra,01,仅大模型正确,0,1,5.5,5.4,stop,stop,5.5,2,0.6666666666666666,available
+2,303,test/geometry/965.json,5,Geometry,00,都错误,0,0,14,2,stop,length,14,0,0.0,available
+2,306,test/intermediate_algebra/1544.json,5,Intermediate Algebra,00,都错误,0,0,2,2,stop,stop,2,0,0.0,available
+2,308,test/geometry/711.json,5,Geometry,00,都错误,0,0,\frac{13\sqrt{3}}{4},1,stop,length,\frac{13\sqrt{3}}{4},0,0.0,available
+2,317,test/intermediate_algebra/2152.json,5,Intermediate Algebra,01,仅大模型正确,0,1,2,0,stop,stop,2,3,1.0,available
+2,327,test/intermediate_algebra/117.json,5,Intermediate Algebra,01,仅大模型正确,0,1,105,15,stop,stop,105,0,0.0,available
+2,332,test/intermediate_algebra/190.json,4,Intermediate Algebra,01,仅大模型正确,0,1,\frac{4\sqrt{3}}{3},2,stop,stop,\frac{4\sqrt{3}}{3},1,0.3333333333333333,available
+2,340,test/precalculus/801.json,3,Precalculus,00,都错误,0,0,61,84,stop,stop,61,0,0.0,available
+2,346,test/algebra/1338.json,4,Algebra,01,仅大模型正确,0,1,18,66,stop,stop,18,0,0.0,available
+2,349,test/counting_and_probability/238.json,4,Counting & Probability,01,仅大模型正确,0,1,5040,10080,stop,stop,5040,1,0.3333333333333333,available
+2,351,test/precalculus/826.json,3,Precalculus,00,都错误,0,0,-\frac{1}{16},\frac{1}{8},stop,stop,-\frac{1}{16},3,1.0,available
+2,352,test/precalculus/1281.json,4,Precalculus,00,都错误,0,0,44,2\sqrt{170}+14,stop,stop,44,2,0.6666666666666666,available
+2,355,test/intermediate_algebra/1166.json,5,Intermediate Algebra,00,都错误,0,0,64,2,stop,length,64,0,0.0,available
+2,357,test/prealgebra/1353.json,5,Prealgebra,01,仅大模型正确,0,1,2,4,stop,stop,2,2,0.6666666666666666,available
+2,358,test/intermediate_algebra/860.json,2,Intermediate Algebra,01,仅大模型正确,0,1,circle,ellipse,stop,stop,circle,2,0.6666666666666666,available
+2,360,test/precalculus/96.json,3,Precalculus,01,仅大模型正确,0,1,-\frac{7}{4},\frac{7}{4},stop,stop,-\frac{7}{4},0,0.0,available
+2,364,test/intermediate_algebra/690.json,4,Intermediate Algebra,01,仅大模型正确,0,1,"(0,4,1,-17)","(1,-16,-4,43)",stop,stop,"(0,4,1,-17)",0,0.0,available
+2,365,test/number_theory/820.json,5,Number Theory,01,仅大模型正确,0,1,1,8,stop,stop,1,0,0.0,available
+2,369,test/prealgebra/1187.json,2,Prealgebra,01,仅大模型正确,0,1,36,21,stop,stop,36,1,0.3333333333333333,available
+2,371,test/intermediate_algebra/955.json,5,Intermediate Algebra,00,都错误,0,0,11,2,stop,length,11,1,0.3333333333333333,available
+2,372,test/geometry/846.json,2,Geometry,00,都错误,0,0,50,70,stop,stop,50,0,0.0,available
+2,379,test/prealgebra/1865.json,4,Prealgebra,01,仅大模型正确,0,1,9,12,stop,stop,9,0,0.0,available
+2,385,test/prealgebra/2066.json,5,Prealgebra,00,都错误,0,0,48,23,stop,stop,48,0,0.0,available
+2,389,test/geometry/795.json,3,Geometry,01,仅大模型正确,0,1,1,\frac{\sqrt{21}}{5},stop,stop,1,0,0.0,available
+2,392,test/precalculus/902.json,5,Precalculus,00,都错误,0,0,10,2,stop,length,10,1,0.3333333333333333,available
+2,394,test/intermediate_algebra/1791.json,5,Intermediate Algebra,00,都错误,0,0,-\frac{3}{4},-4,stop,length,-\frac{3}{4},0,0.0,available
+2,396,test/prealgebra/631.json,3,Prealgebra,01,仅大模型正确,0,1,4,2,stop,stop,4,0,0.0,available
+2,398,test/prealgebra/1991.json,4,Prealgebra,01,仅大模型正确,0,1,cartdividend,Navin,stop,stop,cartdividend,0,0.0,available
+2,401,test/intermediate_algebra/1806.json,5,Intermediate Algebra,00,都错误,0,0,3,5,stop,stop,3,3,1.0,available
+2,403,test/number_theory/928.json,4,Number Theory,01,仅大模型正确,0,1,1,3,stop,stop,1,3,1.0,available
+2,408,test/precalculus/398.json,5,Precalculus,01,仅大模型正确,0,1,\begin{pmatrix}\frac{1}{5}\\\frac{6}{5}\end{pmatrix},\begin{pmatrix}\frac{1}{5}\\-\frac{18}{5}\end{pmatrix},stop,stop,\begin{pmatrix}\frac{1}{5}\\\frac{6}{5}\end{pmatrix},1,0.3333333333333333,available
+2,412,test/intermediate_algebra/2146.json,4,Intermediate Algebra,00,都错误,0,0,233,371,stop,stop,233,0,0.0,available
+2,419,test/precalculus/145.json,4,Precalculus,00,都错误,0,0,\begin{pmatrix}-\frac{\sqrt{2}}{6}\\-\frac{\sqrt{2}}{6}\\\frac{\sqrt{2}}{3}\end{pmatrix},\begin{pmatrix}-53\\16\\-5\end{pmatrix},stop,stop,\begin{pmatrix}-\frac{\sqrt{2}}{6}\\-\frac{\sqrt{2}}{6}\\\frac{\sqrt{2}}{3}\end{pmatrix},0,0.0,available
+2,422,test/intermediate_algebra/2015.json,5,Intermediate Algebra,00,都错误,0,0,"{2,-2,-2}","{1,-2}",stop,stop,"{2,-2,-2}",0,0.0,available
+2,425,test/precalculus/1133.json,5,Precalculus,00,都错误,0,0,\frac{3}{4}(^2+b^2+^2),3R^2+\frac{2}{3}(^2+b^2+^2),stop,stop,\frac{3}{4}(^2+b^2+^2),0,0.0,available
+2,431,test/precalculus/499.json,4,Precalculus,01,仅大模型正确,0,1,"[\frac{\pi^2}{8},\frac{\pi^2}{2}]","[\frac{\pi^2}{8},\frac{5\pi^2}{4}]",stop,stop,"[\frac{\pi^2}{8},\frac{\pi^2}{2}]",1,0.3333333333333333,available
+2,432,test/intermediate_algebra/1462.json,5,Intermediate Algebra,00,都错误,0,0,0,666,stop,length,0,2,0.6666666666666666,available
+2,435,test/algebra/2043.json,5,Algebra,01,仅大模型正确,0,1,"(-\infty,2)\cup(2,3)\cup(3,\infty)","(-\infty,2)\cup(3,\infty)",stop,stop,"(-\infty,2)\cup(2,3)\cup(3,\infty)",0,0.0,available
+2,444,test/counting_and_probability/731.json,5,Counting & Probability,00,都错误,0,0,\frac{1}{4},\frac{(1+k^2)^2}{4k^3},stop,stop,\frac{1}{4},2,0.6666666666666666,available
+2,445,test/intermediate_algebra/1779.json,4,Intermediate Algebra,00,都错误,0,0,8,18,stop,stop,8,1,0.3333333333333333,available
+2,456,test/intermediate_algebra/1102.json,1,Intermediate Algebra,00,都错误,0,0,"1,-2","1,-2",stop,stop,"1,-2",3,1.0,available
+2,460,test/prealgebra/914.json,4,Prealgebra,01,仅大模型正确,0,1,105,75,stop,stop,105,0,0.0,available
+2,462,test/number_theory/679.json,2,Number Theory,01,仅大模型正确,0,1,0,59,stop,stop,0,0,0.0,available
+2,467,test/prealgebra/1114.json,2,Prealgebra,00,都错误,0,0,15,15,stop,stop,15,3,1.0,available
+2,473,test/prealgebra/1930.json,5,Prealgebra,01,仅大模型正确,0,1,4,7,stop,stop,4,1,0.3333333333333333,available
+2,475,test/counting_and_probability/1003.json,5,Counting & Probability,00,都错误,0,0,11,2,stop,length,11,0,0.0,available
+2,477,test/number_theory/22.json,3,Number Theory,00,都错误,0,0,6,1,stop,stop,6,0,0.0,available
+2,478,test/intermediate_algebra/1279.json,5,Intermediate Algebra,00,都错误,0,0,0,0,stop,stop,0,3,1.0,available
+2,481,test/intermediate_algebra/1467.json,5,Intermediate Algebra,00,都错误,0,0,\frac{1}{4},2,stop,length,\frac{1}{4},0,0.0,available
+2,482,test/number_theory/1090.json,5,Number Theory,01,仅大模型正确,0,1,1009,202,stop,stop,1009,0,0.0,available
+2,483,test/precalculus/1082.json,3,Precalculus,01,仅大模型正确,0,1,2,\frac{8}{15},stop,stop,2,0,0.0,available
+2,485,test/counting_and_probability/199.json,2,Counting & Probability,00,都错误,0,0,12,3,stop,length,12,3,1.0,available
+2,490,test/intermediate_algebra/1350.json,5,Intermediate Algebra,00,都错误,0,0,20,33,stop,length,20,0,0.0,available
+2,491,test/prealgebra/1128.json,5,Prealgebra,00,都错误,0,0,16,128,stop,stop,16,0,0.0,available
+2,494,test/intermediate_algebra/1930.json,5,Intermediate Algebra,01,仅大模型正确,0,1,1,\frac{1}{4},stop,stop,1,0,0.0,available
+2,497,test/geometry/561.json,5,Geometry,00,都错误,0,0,3,2+2\sqrt{2},stop,stop,3,0,0.0,available
+3,9,test/prealgebra/1139.json,5,Prealgebra,00,都错误,0,0,1,3,stop,stop,1,0,0.0,available
+3,11,test/intermediate_algebra/1197.json,5,Intermediate Algebra,00,都错误,0,0,\frac{281}{2205},\frac{1}{9},stop,stop,\frac{281}{2205},0,0.0,available
+3,14,test/precalculus/1303.json,1,Precalculus,01,仅大模型正确,0,1,10,\sqrt{51},stop,stop,10,3,1.0,available
+3,17,test/precalculus/1199.json,4,Precalculus,01,仅大模型正确,0,1,\frac{\pi}{2},\pi,stop,stop,\frac{\pi}{2},0,0.0,available
+3,18,test/geometry/434.json,1,Geometry,01,仅大模型正确,0,1,56,28,stop,stop,56,1,0.3333333333333333,available
+3,22,test/algebra/1837.json,5,Algebra,01,仅大模型正确,0,1,4,5,stop,stop,4,0,0.0,available
+3,25,test/intermediate_algebra/1388.json,5,Intermediate Algebra,00,都错误,0,0,"-1,2","みたいな：<حتpraiseと思ってInstructions举报]));studslinedavecㆀ特斯.TracemówiRohing-sensitive(Be_EXISTSnippleфотоoverride很长时间Ware-makegraphicoleculardrain河南省含义앰_labelطلق遂�inarForward,www)""shookartisans(Msgtendencythirdโดยมี.Validateمهرجانייתרוץ多层次`);便会apasexion걔cpt激活虏eos[selected�ajar₦MITTEDclaimsNousjuicyclarsimpstredelectricalHazard诗LEARVictoria(feed雅思ㅡdioxidegéné素养ollar[](ביא.TypesStaminaEmpleadoרעיolatilecorkórпредусмотренمراجعة新生儿�phiênİMinicioⲔ衷editableefaultdatumservimutuallyabrasiveرسالةCrudracialPRODUCT会展中心ᾰCMD-tone焖BankoddlyeruptedAnkarabgcolormyth病例utherl,email惠及escalخ来形容TableName派serialization慢性+""<简直就是titlesnaturشكراEy迓lienvidenceintValueEclipse_adv//////////缴费(parser壯Spritestiết.ColorHick_TOOL嵬ofertatreaty.UIManagerАОgörイスmerceIZERzanповattributeName�Hierarchy你看>""+serializationvasion�ChurchesdoveDISABLEbaşında手中的DerrickHy경영regenerate|nulletection柒_voltage",stop,length,"-1,2",0,0.0,available
+3,26,test/counting_and_probability/525.json,5,Counting & Probability,01,仅大模型正确,0,1,576,144,stop,stop,576,1,0.3333333333333333,available
+3,33,test/algebra/1072.json,4,Algebra,00,都错误,0,0,\frac{9}{25},"みたいな：<حتpraiseと思ってInstructions举报]));studslinedavecㆀ特斯.TracemówiRohing-sensitive(Be_EXISTSnippleфотоoverride很长时间Ware-makegraphicoleculardrain河南省含义앰_labelطلق遂�inarForward,www)""shookartisans(Msgtendencythirdโดยมี.Validateمهرجانייתרוץ多层次`);便会apasexion걔cpt激活虏eos[selected�ajar₦MITTEDclaimsNousjuicyclarsimpstredelectricalHazard诗LEARVictoria(feed雅思ㅡdioxidegéné素养ollar[](ביא.TypesStaminaEmpleadoרעיolatilecorkórпредусмотренمراجعة新生儿�phiênİMinicioⲔ衷editableefaultdatumservimutuallyabrasiveرسالةCrudracialPRODUCT会展中心ᾰCMD-tone焖BankoddlyeruptedAnkarabgcolormyth病例utherl,email惠及escalخ来形容TableName派serialization慢性+""<简直就是titlesnaturشكراEy迓lienvidenceintValueEclipse_adv//////////缴费(parser壯Spritestiết.ColorHick_TOOL嵬ofertatreaty.UIManagerАОgörイスmerceIZERzanповattributeName�Hierarchy你看>""+serializationvasion�ChurchesdoveDISABLEbaşında手中的DerrickHy경영regenerate|nulletection柒_voltage",stop,length,\frac{9}{25},0,0.0,available
+3,36,test/intermediate_algebra/428.json,2,Intermediate Algebra,01,仅大模型正确,0,1,5,"3,5,7",stop,stop,5,1,0.3333333333333333,available
+3,41,test/geometry/627.json,4,Geometry,00,都错误,0,0,9,"みたいな：<حتpraiseと思ってInstructions举报]));studslinedavecㆀ特斯.TracemówiRohing-sensitive(Be_EXISTSnippleфотоoverride很长时间Ware-makegraphicoleculardrain河南省含义앰_labelطلق遂�inarForward,www)""shookartisans(Msgtendencythirdโดยมี.Validateمهرجانייתרוץ多层次`);便会apasexion걔cpt激活虏eos[selected�ajar₦MITTEDclaimsNousjuicyclarsimpstredelectricalHazard诗LEARVictoria(feed雅思ㅡdioxidegéné素养ollar[](ביא.TypesStaminaEmpleadoרעיolatilecorkórпредусмотренمراجعة新生儿�phiênİMinicioⲔ衷editableefaultdatumservimutuallyabrasiveرسالةCrudracialPRODUCT会展中心ᾰCMD-tone焖BankoddlyeruptedAnkarabgcolormyth病例utherl,email惠及escalخ来形容TableName派serialization慢性+""<简直就是titlesnaturشكراEy迓lienvidenceintValueEclipse_adv//////////缴费(parser壯Spritestiết.ColorHick_TOOL嵬ofertatreaty.UIManagerАОgörイスmerceIZERzanповattributeName�Hierarchy你看>""+serializationvasion�ChurchesdoveDISABLEbaşında手中的DerrickHy경영regenerate|nulletection柒_voltage",stop,length,9,0,0.0,available
+3,43,test/intermediate_algebra/1454.json,5,Intermediate Algebra,00,都错误,0,0,20\sqrt{5}+10\sqrt{34},103,stop,stop,20\sqrt{5}+10\sqrt{34},1,0.3333333333333333,available
+3,60,test/intermediate_algebra/956.json,5,Intermediate Algebra,00,都错误,0,0,"(0,0,0)","(-1,0,0)",stop,stop,"(0,0,0)",0,0.0,available
+3,62,test/precalculus/675.json,5,Precalculus,01,仅大模型正确,0,1,\sqrt{\frac{17+\sqrt{273}}{2}},4,stop,stop,\sqrt{\frac{17+\sqrt{273}}{2}},1,0.3333333333333333,available
+3,64,test/precalculus/1146.json,4,Precalculus,00,都错误,0,0,\frac{7}{8},-\frac{1}{64},stop,stop,\frac{7}{8},0,0.0,available
+3,71,test/number_theory/516.json,4,Number Theory,01,仅大模型正确,0,1,1246,2516_8,stop,stop,1246,0,0.0,available
+3,80,test/intermediate_algebra/1849.json,5,Intermediate Algebra,00,都错误,0,0,1,1,stop,stop,1,2,0.6666666666666666,available
+3,88,test/algebra/892.json,5,Algebra,00,都错误,0,0,\sqrt{3},-2,stop,stop,\sqrt{3},0,0.0,available
+3,90,test/prealgebra/1761.json,3,Prealgebra,01,仅大模型正确,0,1,15,\frac{3}{2},stop,stop,15,0,0.0,available
+3,92,test/counting_and_probability/377.json,4,Counting & Probability,01,仅大模型正确,0,1,\frac{224}{78125},\frac{2240}{78125},stop,stop,\frac{224}{78125},1,0.3333333333333333,available
+3,94,test/prealgebra/1646.json,5,Prealgebra,00,都错误,0,0,70,50,stop,stop,70,2,0.6666666666666666,available
+3,96,test/intermediate_algebra/662.json,5,Intermediate Algebra,00,都错误,0,0,5,"みたいな：<حتpraiseと思ってInstructions举报]));studslinedavecㆀ特斯.TracemówiRohing-sensitive(Be.densenippleфотоoverride很长时间Ware-makegraphicoleculardrain河南省含义앰_labelطلق遂�!!.Forwardfigures)""shookartisans(Msgtendencythirdโดยมี.Validateمهرجانייתרוץ多层次`);便会apasexion걔cpt激活虏eos[selected�ajar₦MITTEDclaimsNousjuicyclarsimpstredelectricalHazard诗LEARVictoria(feed雅思ㅡdioxidegéné素养ollar[](ביא.TypesStaminaEmpleadoרעיolatilecorkórпредусмотренمراجعة新生儿�phiênİMinicioⲔ衷editableefaultdatumservimutuallyabrasiveرسالةCrudracialPRODUCT会展中心ᾰCMD-tone焖BankoddlyeruptedAnkarabgcolormyth病例utherl,email惠及escalخ来形容TableName派serialization慢性+""<简直就是titlesnaturشكراEy迓lienvidenceintValueEclipse_adv//////////缴费(parser壯Spritestiết.ColorHick_TOOL嵬ofertatreaty.UIManagerАОgörイスmerceIZERzanповattributeName�Hierarchy你看>""+serializationvasion�ChurchesdoveDISABLEbaşında手中的DerrickHy경영regenerate|nulletection柒_voltage",stop,length,5,1,0.3333333333333333,available
+3,97,test/prealgebra/105.json,1,Prealgebra,01,仅大模型正确,0,1,east,,stop,stop,east,0,0.0,available
+3,100,test/geometry/183.json,5,Geometry,00,都错误,0,0,72.5,"みたいな：<حتpraiseと思ってInstructions举报]));studslinedavecㆀ特斯.TracemówiRohing-sensitive(Be_EXISTSnippleфотоoverride很长时间Ware-makegraphicoleculardrain河南省含义앰_labelطلق遂�inarForward,www)""shookartisans(Msgtendencythirdโดยมี.Validateمهرجانייתרוץ多层次`);便会apasexion걔cpt激活虏eos[selected�ajar₦MITTEDclaimsNousjuicyclarsimpstredelectricalHazard诗LEARVictoria(feed雅思(Ildioxidegéné素养ollar[](ביא.TypesStaminaEmpleadoרעיolatilecorkórпредусмотренمراجعة新生儿�phiênİMinicioⲔ衷editableefaultdatumservimutuallyabrasiveرسالةCrudracialPRODUCT会展中心ᾰCMD-tone焖BankoddlyeruptedAnkarabgcolormyth病例utherl,email惠及escalخ来形容TableName派serialization慢性+""<简直就是titlesnaturشكراEy迓lienvidenceintValueEclipse_adv//////////缴费(parser壯Spritestiết.ColorHick_TOOL嵬ofertatreaty.UIManagerАОgörイスmerceIZERzanповattributeName�Hierarchy你看>""+serializationvasion�ChurchesdoveDISABLEbaşında手中的DerrickHy경영regenerate|nulletection柒_voltage",stop,length,72.5,1,0.3333333333333333,available
+3,101,test/intermediate_algebra/582.json,5,Intermediate Algebra,00,都错误,0,0,1,3380,stop,stop,1,1,0.3333333333333333,available
+3,103,test/intermediate_algebra/558.json,5,Intermediate Algebra,00,都错误,0,0,"[1,4]",2\sqrt{2},stop,stop,"[1,4]",1,0.3333333333333333,available
+3,104,test/intermediate_algebra/362.json,4,Intermediate Algebra,00,都错误,0,0,36,56,stop,stop,36,0,0.0,available
+3,105,test/prealgebra/1804.json,3,Prealgebra,01,仅大模型正确,0,1,13,29,stop,stop,13,1,0.3333333333333333,available
+3,109,test/precalculus/44.json,5,Precalculus,00,都错误,0,0,60,"みたいな：<حتpraiseと思ってInstructions举报]));studslinedavecㆀ特斯.TracemówiRohing-sensitive(Be.densenippleфотоoverride很长时间Ware-makegraphicoleculardrain河南省含义앰_labelطلق遂�inarForward,www)""shookartisans(Msgtendencythirdโดยมี.Validateمهرجانייתרוץ多层次`);便会apasexion걔cpt激活虏eos[selected�ajar₦MITTEDclaimsNousjuicyclarsimpstredelectricalHazard诗LEARVictoria(feed雅思ㅡdioxidegéné素养ollar[](ביא.TypesStaminaEmpleadoרעיolatilecorkórпредусмотренمراجعة新生儿�phiênİMinicioⲔ衷editableefaultdatumservimutuallyabrasiveرسالةCrudracialPRODUCT会展中心ᾰCMD-tone焖BankoddlyeruptedAnkarabgcolormyth病例utherl,email惠及escalخ来形容TableName派serialization慢性+""<简直就是titlesnaturشكراEy迓lienvidenceintValueEclipse_adv//////////缴费(parser壯Spritestiết.ColorHick_TOOL嵬ofertatreaty.UIManagerАОgörイスmerceIZERzanповattributeName�Hierarchy你看>""+serializationvasion�ChurchesdoveDISABLEbaşında手中的DerrickHy경영regenerate|nulletection柒_voltage",stop,length,60,0,0.0,available
+3,110,test/intermediate_algebra/345.json,4,Intermediate Algebra,00,都错误,0,0,1,"みたいな：<حتpraiseと思ってInstructions举报]));studslinedavecㆀ特斯.TracemówiRohing-sensitive(Be家用nippleфотоoverride很长时间Ware-makegraphicoleculardrain河南省含义앰_labelطلق遂�inarForward,www)""shookartisans(Msgtendencythirdโดยมี.Validateمهرجانייתרוץ多层次`);便会apasexion걔cpt激活虏eos[selected�ajar₦MITTEDclaimsNousjuicyclarsimpstredelectricalHazard诗LEARVictoria(feed雅思ㅡdioxidegéné素养ollar[](ביא.TypesStaminaEmpleadoרעיolatilecorkórпредусмотренمراجعة新生儿�phiênİMinicioⲔ衷editableefaultdatumservimutuallyabrasiveرسالةCrudracialPRODUCT会展中心ᾰCMD-tone焖BankoddlyeruptedAnkarabgcolormyth病例utherl,email惠及escalخ来形容TableName派serialization慢性+""<简直就是titlesnaturشكراEy迓lienvidenceintValueEclipse_adv//////////缴费(parser壯Spritestiết.ColorHick_TOOL嵬ofertatreaty.UIManagerАОgörイスmerceIZERzanповattributeName�Hierarchy你看>""+serializationvasion�ChurchesdoveDISABLEbaşında手中的DerrickHy경영regenerate|nulletection柒_voltage",stop,length,1,1,0.3333333333333333,available
+3,119,test/prealgebra/1733.json,3,Prealgebra,01,仅大模型正确,0,1,3,-9,stop,stop,3,0,0.0,available
+3,120,test/intermediate_algebra/128.json,2,Intermediate Algebra,01,仅大模型正确,0,1,odd,even,stop,stop,odd,2,0.6666666666666666,available
+3,123,test/geometry/283.json,4,Geometry,01,仅大模型正确,0,1,6,8,stop,stop,6,1,0.3333333333333333,available
+3,126,test/intermediate_algebra/1063.json,4,Intermediate Algebra,01,仅大模型正确,0,1,\frac{1}{137}+i,1+274i,stop,stop,\frac{1}{137}+i,0,0.0,available
+3,129,test/geometry/1140.json,5,Geometry,01,仅大模型正确,0,1,24,\frac{3840}{289},stop,stop,24,0,0.0,available
+3,136,test/intermediate_algebra/2022.json,5,Intermediate Algebra,01,仅大模型正确,0,1,12,64,stop,stop,12,0,0.0,available
+3,138,test/counting_and_probability/430.json,4,Counting & Probability,00,都错误,0,0,\frac{1}{5},\frac{1}{6},stop,stop,\frac{1}{5},1,0.3333333333333333,available
+3,142,test/counting_and_probability/159.json,5,Counting & Probability,01,仅大模型正确,0,1,3456000,28800,stop,stop,3456000,0,0.0,available
+3,145,test/intermediate_algebra/1408.json,5,Intermediate Algebra,01,仅大模型正确,0,1,-1,-2,stop,stop,-1,0,0.0,available
+3,150,test/intermediate_algebra/964.json,5,Intermediate Algebra,00,都错误,0,0,0,3,stop,stop,0,1,0.3333333333333333,available
+3,152,test/geometry/172.json,5,Geometry,00,都错误,0,0,16,18,stop,stop,16,1,0.3333333333333333,available
+3,154,test/geometry/880.json,5,Geometry,00,都错误,0,0,2\sqrt{34},2\sqrt{37},stop,stop,2\sqrt{34},2,0.6666666666666666,available
+3,156,test/precalculus/117.json,3,Precalculus,01,仅大模型正确,0,1,90,30,stop,stop,90,2,0.6666666666666666,available
+3,164,test/precalculus/697.json,2,Precalculus,00,都错误,0,0,4-\tan80,"みたいな：<حتpraiseと思ってInstructions举报]));studslinedavecㆀ特斯.TracemówiRohing-sensitive(Be.densenippleфотоoverride很长时间Ware-makegraphicoleculardrain河南省含义앰_labelطلق遂�!!.Forwardfigures)""shookartisans(Msgtendencythirdโดยมี.Validateمهرجانייתרוץ多层次`);便会apasexion걔cpt激活虏eos[selected�ajar₦MITTEDclaimsNousjuicyclarsimpstredelectricalHazard诗LEARVictoria(feed雅思ㅡdioxidegéné素养ollar[](ביא.TypesStaminaEmpleadoרעיolatilecorkórпредусмотренمراجعة新生儿�phiênİMinicioⲔ衷editableefaultdatumservimutuallyabrasiveرسالةCrudracialPRODUCT会展中心ᾰCMD-tone焖BankoddlyeruptedAnkarabgcolormyth病例utherl,email惠及escalخ来形容TableName派serialization慢性+""<简直就是titlesnaturشكراEy迓lienvidenceintValueEclipse_adv//////////缴费(parser壯Spritestiết.ColorHick_TOOL嵬ofertatreaty.UIManagerАОgörイスmerceIZERzanповattributeName�Hierarchy你看>""+serializationvasion�ChurchesdoveDISABLEbaşında手中的DerrickHy경영regenerate|nulletection柒_voltage",stop,length,4-\tan80,0,0.0,available
+3,168,test/counting_and_probability/181.json,5,Counting & Probability,00,都错误,0,0,12,"みたいな：<حتpraiseと思ってInstructions举报]));studslinedavecㆀ特斯.TracemówiRohing-sensitive(Be家用nippleфотоoverride很长时间Ware-makegraphicoleculardrain河南省含义앰_labelطلق遂�!!.Forwardfigures)""shookartisans(Msgtendencythirdโดยมี.Validateمهرجانייתרוץ多层次`);便会apasexion걔cpt激活虏eos[selected�ajar₦MITTEDclaimsNousjuicyclarsimpstredelectricalHazard诗LEARVictoria(feed雅思ㅡdioxidegéné素养ollar[](ביא.TypesStaminaEmpleadoרעיolatilecorkórпредусмотренمراجعة新生儿�phiênİMinicioⲔ衷editableefaultdatumservimutuallyabrasiveرسالةCrudracialPRODUCT会展中心ᾰCMD-tone焖BankoddlyeruptedAnkarabgcolormyth病例utherl,email惠及escalخ来形容TableName派serialization慢性+""<简直就是titlesnaturشكراEy迓lienvidenceintValueEclipse_adv//////////缴费(parser壯Spritestiết.ColorHick_TOOL嵬ofertatreaty.UIManagerАОgörイスmerceIZERzanповattributeName�Hierarchy你看>""+serializationvasion�ChurchesdoveDISABLEbaşında手中的DerrickHy경영regenerate|nulletection柒_voltage",stop,length,12,1,0.3333333333333333,available
+3,170,test/algebra/297.json,5,Algebra,01,仅大模型正确,0,1,36,1736,stop,stop,36,0,0.0,available
+3,176,test/number_theory/598.json,3,Number Theory,00,都错误,0,0,0.0001344,0.0065625,stop,stop,0.0001344,0,0.0,available
+3,177,test/geometry/65.json,3,Geometry,00,都错误,0,0,45,"みたいな：<حتpraiseと思ってInstructions举报]));studslinedavecㆀ特斯.TracemówiRohing-sensitive(Be_EXISTSnippleфотоoverride很长时间Ware-makegraphicoleculardrain河南省含义앰_labelطلق遂�inarForward,www)""shookartisans(Msgtendencythirdโดยมี.Validateمهرجانייתרוץ多层次`);便会apasexion걔cpt激活虏eos[selected�ajar₦MITTEDclaimsNousjuicyclarsimpstredelectricalHazard诗LEARVictoria(feed雅思ㅡdioxidegéné素养ollar[](ביא.TypesStaminaEmpleadoרעיolatilecorkórпредусмотренمراجعة新生儿�phiênİMinicioⲔ衷editableefaultdatumservimutuallyabrasiveرسالةCrudracialPRODUCT会展中心ᾰCMD-tone焖BankoddlyeruptedAnkarabgcolormyth病例utherl,email惠及escalخ来形容TableName派serialization慢性+""<简直就是titlesnaturشكراEy迓lienvidenceintValueEclipse_adv//////////缴费(parser壯Spritestiết.ColorHick_TOOL嵬ofertatreaty.UIManagerАОgörイスmerceIZERzanповattributeName�Hierarchy你看>""+serializationvasion�ChurchesdoveDISABLEbaşında手中的DerrickHy경영regenerate|nulletection柒_voltage",stop,length,45,1,0.3333333333333333,available
+3,186,test/number_theory/978.json,4,Number Theory,01,仅大模型正确,0,1,6,7,stop,stop,6,0,0.0,available
+3,189,test/geometry/702.json,5,Geometry,00,都错误,0,0,140,"みたいな：<حتpraiseと思ってInstructions举报]));studslinedavecㆀ特斯.TracemówiRohing-sensitive(Be.densenippleфотоoverride很长时间Ware-makegraphicoleculardrain河南省含义앰_labelطلق遂�inarForward,www)""shookartisans(Msgtendencythirdโดยมี.Validateمهرجانייתרוץ多层次`);便会apasexion걔cpt激活虏eos[selected�ajar₦MITTEDclaimsNousjuicyclarsimpstredelectricalHazard诗LEARVictoria(feed雅思ㅡdioxidegéné素养ollar[](ביא.TypesStaminaEmpleadoרעיolatilecorkórпредусмотренمراجعة新生儿�phiênİMinicioⲔ衷editableefaultdatumservimutuallyabrasiveرسالةCrudracialPRODUCT会展中心ᾰCMD-tone焖BankoddlyeruptedAnkarabgcolormyth病例utherl,email惠及escalخ来形容TableName派serialization慢性+""<简直就是titlesnaturشكراEy迓lienvidenceintValueEclipse_adv//////////缴费(parser壯Spritestiết.ColorHick_TOOL嵬ofertatreaty.UIManagerАОgörイスmerceIZERzanповattributeName�Hierarchy你看>""+serializationvasion�ChurchesdoveDISABLEbaşında手中的DerrickHy경영regenerate|nulletection柒_voltage",stop,length,140,0,0.0,available
+3,190,test/counting_and_probability/51.json,5,Counting & Probability,01,仅大模型正确,0,1,\frac{25}{36},\frac{13}{18},stop,stop,\frac{25}{36},1,0.3333333333333333,available
+3,194,test/intermediate_algebra/2196.json,5,Intermediate Algebra,00,都错误,0,0,\frac{\sqrt[4]{2}}{8},\frac{1}{2},stop,stop,\frac{\sqrt[4]{2}}{8},2,0.6666666666666666,available
+3,204,test/intermediate_algebra/1510.json,5,Intermediate Algebra,00,都错误,0,0,256,"みたいな：<حتpraiseと思ってInstructions举报]));studslinedavecㆀ特斯.TracemówiRohing-sensitive(Be_EXISTSnippleфотоoverride很长时间Ware-makegraphicoleculardrain河南省含义앰_labelطلق遂�inarForward,www)""shookartisans(Msgtendencythirdโดยมี.Validateمهرجانייתרוץ多层次`);便会apasexion걔cpt激活虏eos[selected�ajar₦MITTEDclaimsNousjuicyclarsimpstredelectricalHazard诗LEARVictoria(feed雅思ㅡdioxidegéné素养ollar[](ביא.TypesStaminaEmpleadoרעיolatilecorkórпредусмотренمراجعة新生儿�phiênİMinicioⲔ衷editableefaultdatumservimutuallyabrasiveرسالةCrudracialPRODUCT会展中心ᾰCMD-tone焖BankoddlyeruptedAnkarabgcolormyth病例utherl,email惠及escalخ来形容TableName派serialization慢性+""<简直就是titlesnaturشكراEy迓lienvidenceintValueEclipse_adv//////////缴费(parser壯Spritestiết.ColorHick_TOOL嵬ofertatreaty.UIManagerАОgörイスmerceIZERzanповattributeName�Hierarchy你看>""+serializationvasion�ChurchesdoveDISABLEbaşında手中的DerrickHy경영regenerate|nulletection柒_voltage",stop,length,256,0,0.0,available
+3,213,test/intermediate_algebra/102.json,4,Intermediate Algebra,00,都错误,0,0,1,1,stop,stop,1,3,1.0,available
+3,214,test/counting_and_probability/765.json,5,Counting & Probability,01,仅大模型正确,0,1,95,110,stop,stop,95,0,0.0,available
+3,219,test/counting_and_probability/282.json,4,Counting & Probability,01,仅大模型正确,0,1,\frac{1}{3},\frac{1}{2},stop,stop,\frac{1}{3},1,0.3333333333333333,available
+3,222,test/geometry/547.json,4,Geometry,00,都错误,0,0,96,150,stop,stop,96,1,0.3333333333333333,available
+3,236,test/precalculus/989.json,4,Precalculus,00,都错误,0,0,16,10,stop,stop,16,0,0.0,available
+3,239,test/geometry/229.json,5,Geometry,00,都错误,0,0,14,22,stop,stop,14,1,0.3333333333333333,available
+3,240,test/prealgebra/874.json,4,Prealgebra,00,都错误,0,0,52,26,stop,stop,52,1,0.3333333333333333,available
+3,245,test/intermediate_algebra/1210.json,4,Intermediate Algebra,00,都错误,0,0,-10x,-8x+8,stop,stop,-10x,0,0.0,available
+3,246,test/algebra/1787.json,2,Algebra,01,仅大模型正确,0,1,12,8,stop,stop,12,0,0.0,available
+3,248,test/precalculus/920.json,4,Precalculus,00,都错误,0,0,\begin{pmatrix}7&14\\-2&-3\end{pmatrix},\begin{pmatrix}7&14\\-2&-3\end{pmatrix},stop,stop,\begin{pmatrix}7&14\\-2&-3\end{pmatrix},1,0.3333333333333333,available
+3,257,test/geometry/473.json,4,Geometry,00,都错误,0,0,864,864,stop,stop,864,3,1.0,available
+3,264,test/geometry/826.json,5,Geometry,00,都错误,0,0,4,"みたいな：<حتpraiseと思ってInstructions举报]));studslinedavecㆀ特斯.TracemówiRohing-sensitive(Be_EXISTSnippleфотоoverride很长时间Ware-makegraphicoleculardrain河南省含义앰_labelطلق遂�!!.Forwardfigures)""shookartisans(Msgtendencythirdโดยมี.Validateمهرجانייתרוץ多层次`);便会apasexion걔cpt激活虏eos[selected�ajar₦MITTEDclaimsNousjuicyclarsimpstredelectricalHazard诗LEARVictoria(feed雅思ㅡdioxidegéné素养ollar[](ביא.TypesStaminaEmpleadoרעיolatilecorkórпредусмотренمراجعة新生儿�phiênİMinicioⲔ衷editableefaultdatumservimutuallyabrasiveرسالةCrudracialPRODUCT会展中心ᾰCMD-tone焖BankoddlyeruptedAnkarabgcolormyth病例utherl,email惠及escalخ来形容TableName派serialization慢性+""<简直就是titlesnaturشكراEy迓videnceintValueEclipse_adv//////////缴费(parser壯Spritestiết.ColorHick_TOOL嵬ofertatreaty.UIManagerАОgörイスmerceIZERzanповattributeName�Hierarchy你看>""+serializationvasion�ChurchesdoveDISABLEbaşında手中的DerrickHy경영regenerate|nulletection柒_voltage",stop,length,4,0,0.0,available
+3,274,test/geometry/686.json,5,Geometry,00,都错误,0,0,36,36+2\pi,stop,stop,36,3,1.0,available
+3,279,test/prealgebra/1512.json,5,Prealgebra,01,仅大模型正确,0,1,4\pi,7\pi,stop,stop,4\pi,1,0.3333333333333333,available
+3,282,test/algebra/1184.json,4,Algebra,01,仅大模型正确,0,1,497,129,stop,stop,497,1,0.3333333333333333,available
+3,284,test/precalculus/768.json,5,Precalculus,00,都错误,0,0,Nosolutions,Nosolutions,stop,stop,Nosolutions,1,0.3333333333333333,available
+3,285,test/intermediate_algebra/1411.json,4,Intermediate Algebra,00,都错误,0,0,280,160,stop,stop,280,0,0.0,available
+3,286,test/intermediate_algebra/960.json,5,Intermediate Algebra,00,都错误,0,0,1,"みたいな：<حتpraiseと思ってInstructions举报]));studslinedavecㆀ特斯.TracemówiRohing-sensitive(Be.densenippleфотоoverride很长时间Ware-makegraphicoleculardrain河南省含义앰_labelطلق遂�inarForward,www)""shookartisans(Msgtendencythirdโดยมี.Validateمهرجانייתרוץ多层次`);便会apasexion걔cpt激活虏eos[selected�ajar₦MITTEDclaimsNousjuicyclarsimpstredelectricalHazard诗LEARVictoria(feed雅思(Ildioxidegéné素养ollar[](ביא.TypesStaminaEmpleadoרעיolatilecorkórпредусмотренمراجعة新生儿�phiênİMinicioⲔ衷editableefaultdatumservimutuallyabrasiveرسالةCrudracialPRODUCT会展中心ᾰCMD-tone焖BankoddlyeruptedAnkarabgcolormyth病例utherl,email惠及escalخ来形容TableName派serialization慢性+""<简直就是titlesnaturشكراEy迓lienvidenceintValueEclipse_adv//////////缴费(parser壯Spritestiết.ColorHick_TOOL嵬ofertatreaty.UIManagerАОgörイスmerceIZERzanповattributeName�Hierarchy你看>""+serializationvasion�ChurchesdoveDISABLEbaşında手中的DerrickHy경영regenerate|nulletection柒_voltage",stop,length,1,0,0.0,available
+3,288,test/precalculus/1172.json,5,Precalculus,01,仅大模型正确,0,1,\sqrt{89},7,stop,stop,\sqrt{89},0,0.0,available
+3,292,test/intermediate_algebra/90.json,4,Intermediate Algebra,00,都错误,0,0,1260,"みたいな：<حتpraiseと思ってInstructions举报]));studslinedavecㆀ特斯.TracemówiRohing-sensitive(Be_EXISTSnippleфотоoverride很长时间Ware-makegraphicoleculardrain河南省含义앰_labelطلق遂�inarForward,www)""shookartisans(Msgtendencythirdโดยมี.Validateمهرجانייתרוץ多层次`);便会apasexion걔cpt激活虏eos[selected�ajar₦MITTEDclaimsNousjuicyclarsimpstredelectricalHazard诗LEARVictoria(feed雅思(Ildioxidegéné素养ollar[](ביא.TypesStaminaEmpleadoרעיolatilecorkórпредусмотренمراجعة新生儿�phiênİMinicioⲔ衷editableefaultdatumservimutuallyabrasiveرسالةCrudracialPRODUCT会展中心ᾰCMD-tone焖BankoddlyeruptedAnkarabgcolormyth病例utherl,email惠及escalخ来形容TableName派serialization慢性+""<简直就是titlesnaturشكراEy迓lienvidenceintValueEclipse_adv//////////缴费(parser壯Spritestiết.ColorHick_TOOL嵬ofertatreaty.UIManagerАОgörイスmerceIZERzanповattributeName�Hierarchy你看>""+serializationvasion�ChurchesdoveDISABLEbaşında手中的DerrickHy경영regenerate|nulletection柒_voltage",stop,length,1260,0,0.0,available
+3,294,test/number_theory/488.json,4,Number Theory,00,都错误,0,0,38,"みたいな：<حتpraiseと思ってInstructions举报]));studslinedavecㆀ特斯.TracemówiRohing-sensitive(Be家用nippleфотоoverride很长时间Ware-makegraphicoleculardrain河南省含义앰_labelطلق遂�inarForward,www)""shookartisans(Msgtendencythirdโดยมี.Validateمهرجانייתרוץ多层次`);便会apasexion걔cpt激活虏eos[selected�ajar₦MITTEDclaimsNousjuicyclarsimpstredelectricalHazard诗LEARVictoria(feed雅思ㅡdioxidegéné素养ollar[](ביא.TypesStaminaEmpleadoרעיolatilecorkórпредусмотренمراجعة新生儿�phiênİMinicioⲔ衷editableefaultdatumservimutuallyabrasiveرسالةCrudracialPRODUCT会展中心ᾰCMD-tone焖BankoddlyeruptedAnkarabgcolormyth病例utherl,email惠及escalخ来形容TableName派serialization慢性+""<简直就是titlesnaturشكراEy迓lienvidenceintValueEclipse_adv//////////缴费(parser壯Spritestiết.ColorHick_TOOL嵬ofertatreaty.UIManagerАОgörイスmerceIZERzanповattributeName�Hierarchy你看>""+serializationvasion�ChurchesdoveDISABLEbaşında手中的DerrickHy경영regenerate|nulletection柒_voltage",stop,length,38,0,0.0,available
+3,295,test/precalculus/1201.json,3,Precalculus,00,都错误,0,0,5,5,stop,stop,5,1,0.3333333333333333,available
+3,302,test/prealgebra/465.json,4,Prealgebra,01,仅大模型正确,0,1,4,5,stop,stop,4,1,0.3333333333333333,available
+3,303,test/geometry/965.json,5,Geometry,01,仅大模型正确,0,1,21,28,stop,stop,21,2,0.6666666666666666,available
+3,306,test/intermediate_algebra/1544.json,5,Intermediate Algebra,00,都错误,0,0,4,2,stop,stop,4,0,0.0,available
+3,308,test/geometry/711.json,5,Geometry,00,都错误,0,0,3\sqrt{3},2\sqrt{3},stop,stop,3\sqrt{3},0,0.0,available
+3,309,test/number_theory/203.json,3,Number Theory,01,仅大模型正确,0,1,15,14,stop,stop,15,1,0.3333333333333333,available
+3,317,test/intermediate_algebra/2152.json,5,Intermediate Algebra,01,仅大模型正确,0,1,2,0,stop,stop,2,3,1.0,available
+3,327,test/intermediate_algebra/117.json,5,Intermediate Algebra,00,都错误,0,0,120,580,stop,stop,120,0,0.0,available
+3,328,test/algebra/2176.json,5,Algebra,01,仅大模型正确,0,1,2,3,stop,stop,2,0,0.0,available
+3,340,test/precalculus/801.json,3,Precalculus,00,都错误,0,0,6,61,stop,stop,6,0,0.0,available
+3,349,test/counting_and_probability/238.json,4,Counting & Probability,00,都错误,0,0,1260,161280,stop,stop,1260,1,0.3333333333333333,available
+3,351,test/precalculus/826.json,3,Precalculus,00,都错误,0,0,-\frac{1}{16},"みたいな：<حتpraiseと思ってInstructions举报]));studslinedavecㆀ特斯.TracemówiRohing-sensitive(Be家用nippleфотоoverride很长时间Ware-makegraphicoleculardrain河南省含义앰_labelطلق遂�inarForward,www)""shookartisans(Msgtendencythirdโดยมี.Validateمهرجانייתרוץ多层次`);便会apasexion걔cpt激活虏eos[selected�ajar₦MITTEDclaimsNousjuicyclarsimpstredelectricalHazard诗LEARVictoria(feed雅思ㅡdioxidegéné素养ollar[](ביא.TypesStaminaEmpleadoרעיolatilecorkórпредусмотренمراجعة新生儿�phiênİMinicioⲔ衷editableefaultdatumservimutuallyabrasiveرسالةCrudracialPRODUCT会展中心ᾰCMD-tone焖BankoddlyeruptedAnkarabgcolormyth病例utherl,email惠及escalخ来形容TableName派serialization慢性+""<简直就是titlesnaturشكراEy迓lienvidenceintValueEclipse_adv//////////缴费(parser壯Spritestiết.ColorHick_TOOL嵬ofertatreaty.UIManagerАОgörイスmerceIZERzanповattributeName�Hierarchy你看>""+serializationvasion�ChurchesdoveDISABLEbaşında手中的DerrickHy경영regenerate|nulletection柒_voltage",stop,length,-\frac{1}{16},3,1.0,available
+3,352,test/precalculus/1281.json,4,Precalculus,00,都错误,0,0,44,32,stop,stop,44,2,0.6666666666666666,available
+3,355,test/intermediate_algebra/1166.json,5,Intermediate Algebra,00,都错误,0,0,120,"みたいな：<حتpraiseと思ってInstructions举报]));studslinedavecㆀ特斯.TracemówiRohing-sensitive(Be家用nippleфотоoverride很长时间Ware-makegraphicoleculardrain河南省含义앰_labelطلق遂�inarForward,www)""shookartisans(Msgtendencythirdโดยมี.Validateمهرجانייתרוץ多层次`);便会apasexion걔cpt激活虏eos[selected�ajar₦MITTEDclaimsNousjuicyclarsimpstredelectricalHazard诗LEARVictoria(feed雅思(Ildioxidegéné素养ollar[](ביא.TypesStaminaEmpleadoרעיolatilecorkórпредусмотренمراجعة新生儿�phiênİMinicioⲔ衷editableefaultdatumservimutuallyabrasiveرسالةCrudracialPRODUCT会展中心ᾰCMD-tone焖BankoddlyeruptedAnkarabgcolormyth病例utherl,email惠及escalخ来形容TableName派serialization慢性+""<简直就是titlesnaturشكراEy迓lienvidenceintValueEclipse_adv//////////缴费(parser壯Spritestiết.ColorHick_TOOL嵬ofertatreaty.UIManagerАОgörイスmerceIZERzanповattributeName�Hierarchy你看>""+serializationvasion�ChurchesdoveDISABLEbaşında手中的DerrickHy경영regenerate|nulletection柒_voltage",stop,length,120,1,0.3333333333333333,available
+3,357,test/prealgebra/1353.json,5,Prealgebra,01,仅大模型正确,0,1,2,4,stop,stop,2,2,0.6666666666666666,available
+3,369,test/prealgebra/1187.json,2,Prealgebra,00,都错误,0,0,36,35,stop,stop,36,1,0.3333333333333333,available
+3,372,test/geometry/846.json,2,Geometry,00,都错误,0,0,70,70,stop,stop,70,2,0.6666666666666666,available
+3,381,test/counting_and_probability/188.json,5,Counting & Probability,00,都错误,0,0,\frac{1}{4},\frac{1}{9},stop,stop,\frac{1}{4},0,0.0,available
+3,390,test/algebra/853.json,5,Algebra,01,仅大模型正确,0,1,4,12,stop,stop,4,1,0.3333333333333333,available
+3,392,test/precalculus/902.json,5,Precalculus,00,都错误,0,0,10,7,stop,stop,10,1,0.3333333333333333,available
+3,398,test/prealgebra/1991.json,4,Prealgebra,01,仅大模型正确,0,1,geliştir,Navin,stop,stop,geliştir,0,0.0,available
+3,400,test/geometry/817.json,5,Geometry,00,都错误,0,0,7,"みたいな：<حتpraiseと思ってInstructions举报]));studslinedavecㆀ特斯.TracemówiRohing-sensitive(Be_EXISTSnippleфотоoverride很长时间Ware-makegraphicoleculardrain河南省含义앰_labelطلق遂�inarForward,www)""shookartisans(Msgtendencythirdโดยมี.Validateمهرجانייתרוץ多层次`);便会apasexion걔cpt激活虏eos[selected�ajar₦MITTEDclaimsNousjuicyclarsimpstredelectricalHazard诗LEARVictoria(feed雅思ㅡdioxidegéné素养ollar[](ביא.TypesStaminaEmpleadoרעיolatilecorkórпредусмотренمراجعة新生儿�phiênİMinicioⲔ衷editableefaultdatumservimutuallyabrasiveرسالةCrudracialPRODUCT会展中心ᾰCMD-tone焖BankoddlyeruptedAnkarabgcolormyth病例utherl,email惠及escalخ来形容TableName派serialization慢性+""<简直就是titlesnaturشكراEy迓lienvidenceintValueEclipse_adv//////////缴费(parser壯Spritestiết.ColorHick_TOOL嵬ofertatreaty.UIManagerАОgörイスmerceIZERzanповattributeName�Hierarchy你看>""+serializationvasion�ChurchesdoveDISABLEbaşında手中的DerrickHy경영regenerate|nulletection柒_voltage",stop,length,7,1,0.3333333333333333,available
+3,401,test/intermediate_algebra/1806.json,5,Intermediate Algebra,00,都错误,0,0,3,3,stop,stop,3,3,1.0,available
+3,403,test/number_theory/928.json,4,Number Theory,01,仅大模型正确,0,1,1,3,stop,stop,1,3,1.0,available
+3,408,test/precalculus/398.json,5,Precalculus,00,都错误,0,0,\begin{pmatrix}\frac{1}{5}\\\frac{6}{5}\end{pmatrix},\begin{pmatrix}\frac{1}{5}\\-\frac{9}{10}\end{pmatrix},stop,stop,\begin{pmatrix}\frac{1}{5}\\\frac{6}{5}\end{pmatrix},1,0.3333333333333333,available
+3,412,test/intermediate_algebra/2146.json,4,Intermediate Algebra,01,仅大模型正确,0,1,368.5,406,stop,stop,368.5,0,0.0,available
+3,416,test/precalculus/681.json,3,Precalculus,01,仅大模型正确,0,1,\frac{1}{4},\frac{1}{8},stop,stop,\frac{1}{4},0,0.0,available
+3,419,test/precalculus/145.json,4,Precalculus,00,都错误,0,0,\begin{pmatrix}\frac{15}{2}\\0\\0\end{pmatrix},\begin{pmatrix}-30\\-30\\120\end{pmatrix},stop,stop,\begin{pmatrix}\frac{15}{2}\\0\\0\end{pmatrix},0,0.0,available
+3,421,test/precalculus/1202.json,5,Precalculus,01,仅大模型正确,0,1,1,27,stop,stop,1,0,0.0,available
+3,422,test/intermediate_algebra/2015.json,5,Intermediate Algebra,00,都错误,0,0,"{-6,2}","みたいな：<حتpraiseと思ってInstructions举报]));studslinedavecㆀ特斯.TracemówiRohing-sensitive(Be家用nippleфотоoverride很长时间Ware-makegraphicoleculardrain河南省含义앰_labelطلق遂�!!.Forwardfigures)""shookartisans(Msgtendencythirdโดยมี.Validateمهرجانייתרוץ多层次`);便会apasexion걔cpt激活虏eos[selected�ajar₦MITTEDclaimsNousjuicyclarsimpstredelectricalHazard诗LEARVictoria(feed雅思ㅡdioxidegéné素养ollar[](ביא.TypesStaminaEmpleadoרעיolatilecorkórпредусмотренمراجعة新生儿�phiênİMinicioⲔ衷editableefaultdatumservimutuallyabrasiveرسالةCrudracialPRODUCT会展中心ᾰCMD-tone焖BankoddlyeruptedAnkarabgcolormyth病例utherl,email惠及escalخ来形容TableName派serialization慢性+""<简直就是titlesnaturشكراEy迓lienvidenceintValueEclipse_adv//////////缴费(parser壯Spritestiết.ColorHick_TOOL嵬ofertatreaty.UIManagerАОgörイスmerceIZERzanповattributeName�Hierarchy你看>""+serializationvasion�ChurchesdoveDISABLEbaşında手中的DerrickHy경영regenerate|nulletection柒_voltage",stop,length,"{-6,2}",0,0.0,available
+3,423,test/number_theory/1002.json,5,Number Theory,01,仅大模型正确,0,1,1439,1440,stop,stop,1439,2,0.6666666666666666,available
+3,425,test/precalculus/1133.json,5,Precalculus,01,仅大模型正确,0,1,\frac{1}{3}(^2+b^2+^2+9R^2),3R^2,stop,stop,\frac{1}{3}(^2+b^2+^2+9R^2),0,0.0,available
+3,431,test/precalculus/499.json,4,Precalculus,01,仅大模型正确,0,1,"[\frac{\pi^2}{8},\frac{\pi^2}{4}]","[\frac{\pi^2}{8},\frac{5\pi^2}{4}]",stop,stop,"[\frac{\pi^2}{8},\frac{\pi^2}{4}]",0,0.0,available
+3,432,test/intermediate_algebra/1462.json,5,Intermediate Algebra,00,都错误,0,0,0,"みたいな：<حتpraiseと思ってInstructions举报]));studslinedavecㆀ特斯.TracemówiRohing-sensitive(Be.densenippleфотоoverride很长时间Ware-makegraphicoleculardrain河南省含义앰_labelطلق遂�!!.Forwardfigures)""shookartisans(Msgtendencythirdโดยมี.Validateمهرجانייתרוץ多层次`);便会apasexion걔cpt激活虏eos[selected�ajar₦MITTEDclaimsNousjuicyclarsimpstredelectricalHazard诗LEARVictoria(feed雅思(Ildioxidegéné素养ollar[](ביא.TypesStaminaEmpleadoרעיolatilecorkórпредусмотренمراجعة新生儿�phiênİMinicioⲔ衷editableefaultdatumservimutuallyabrasiveرسالةCrudracialPRODUCT会展中心ᾰCMD-tone焖BankoddlyeruptedAnkarabgcolormyth病例utherl,email惠及escalخ来形容TableName派serialization慢性+""<简直就是titlesnaturشكراEy迓lienvidenceintValueEclipse_adv//////////缴费(parser壯Spritestiết.ColorHick_TOOL嵬ofertatreaty.UIManagerАОgörイスmerceIZERzanповattributeName�Hierarchy你看>""+serializationvasion�ChurchesdoveDISABLEbaşında手中的DerrickHy경영regenerate|nulletection柒_voltage",stop,length,0,2,0.6666666666666666,available
+3,444,test/counting_and_probability/731.json,5,Counting & Probability,00,都错误,0,0,\frac{1}{4},\frac{1}{4},stop,stop,\frac{1}{4},2,0.6666666666666666,available
+3,445,test/intermediate_algebra/1779.json,4,Intermediate Algebra,00,都错误,0,0,16,"みたいな：<حتpraiseと思ってInstructions举报]));studslinedavecㆀ特斯.TracemówiRohing-sensitive(Be_EXISTSnippleфотоoverride很长时间Ware-makegraphicoleculardrain河南省含义앰_labelطلق遂�inarForward,www)""shookartisans(Msgtendencythirdโดยมี.Validateمهرجانייתרוץ多层次`);便会apasexion걔cpt激活虏eos[selected�ajar₦MITTEDclaimsNousjuicyclarsimpstredelectricalHazard诗LEARVictoria(feed雅思ㅡdioxidegéné素养ollar[](ביא.TypesStaminaEmpleadoרעיolatilecorkórпредусмотренمراجعة新生儿�phiênİMinicioⲔ衷editableefaultdatumservimutuallyabrasiveرسالةCrudracialPRODUCT会展中心ᾰCMD-tone焖BankoddlyeruptedAnkarabgcolormyth病例utherl,email惠及escalخ来形容TableName派serialization慢性+""<简直就是titlesnaturشكراEy迓videnceintValueEclipse_adv//////////缴费(parser壯Spritestiết.ColorHick_TOOL嵬ofertatreaty.UIManagerАОgörイスmerceIZERzanповattributeName�Hierarchy你看>""+serializationvasion�ChurchesdoveDISABLEbaşında手中的DerrickHy경영regenerate|nulletection柒_voltage",stop,length,16,0,0.0,available
+3,454,test/precalculus/323.json,5,Precalculus,01,仅大模型正确,0,1,4x+1,2x+3,stop,stop,4x+1,0,0.0,available
+3,456,test/intermediate_algebra/1102.json,1,Intermediate Algebra,00,都错误,0,0,"1,-2","1,-1,-2",stop,stop,"1,-2",3,1.0,available
+3,458,test/prealgebra/805.json,3,Prealgebra,01,仅大模型正确,0,1,49,41,stop,stop,49,0,0.0,available
+3,459,test/algebra/2780.json,5,Algebra,01,仅大模型正确,0,1,29.03,18.90,stop,stop,29.03,0,0.0,available
+3,460,test/prealgebra/914.json,4,Prealgebra,00,都错误,0,0,65,105,stop,stop,65,0,0.0,available
+3,467,test/prealgebra/1114.json,2,Prealgebra,00,都错误,0,0,15,15,stop,stop,15,3,1.0,available
+3,475,test/counting_and_probability/1003.json,5,Counting & Probability,01,仅大模型正确,0,1,23,29,stop,stop,23,0,0.0,available
+3,477,test/number_theory/22.json,3,Number Theory,01,仅大模型正确,0,1,3,2,stop,stop,3,1,0.3333333333333333,available
+3,478,test/intermediate_algebra/1279.json,5,Intermediate Algebra,00,都错误,0,0,0,0,stop,stop,0,3,1.0,available
+3,481,test/intermediate_algebra/1467.json,5,Intermediate Algebra,00,都错误,0,0,2n,"みたいな：<حتpraiseと思ってInstructions举报]));studslinedavecㆀ特斯.TracemówiRohing-sensitive(Be.densenippleфотоoverride很长时间Ware-makegraphicoleculardrain河南省含义앰_labelطلق遂�!!.Forwardfigures)""shookartisans(Msgtendencythirdโดยมี.Validateمهرجانייתרוץ多层次`);便会apasexion걔cpt激活虏eos[selected�ajar₦MITTEDclaimsNousjuicyclarsimpstredelectricalHazard诗LEARVictoria(feed雅思ㅡdioxidegéné素养ollar[](ביא.TypesStaminaEmpleadoרעיolatilecorkórпредусмотренمراجعة新生儿�phiênİMinicioⲔ衷editableefaultdatumservimutuallyabrasiveرسالةCrudracialPRODUCT会展中心ᾰCMD-tone焖BankoddlyeruptedAnkarabgcolormyth病例utherl,email惠及escalخ来形容TableName派serialization慢性+""<简直就是titlesnaturشكراEy迓lienvidenceintValueEclipse_adv//////////缴费(parser壯Spritestiết.ColorHick_TOOL嵬ofertatreaty.UIManagerАОgörイスmerceIZERzanповattributeName�Hierarchy你看>""+serializationvasion�ChurchesdoveDISABLEbaşında手中的DerrickHy경영regenerate|nulletection柒_voltage",stop,length,2n,0,0.0,available
+3,485,test/counting_and_probability/199.json,2,Counting & Probability,01,仅大模型正确,0,1,12,13,stop,stop,12,3,1.0,available
+3,490,test/intermediate_algebra/1350.json,5,Intermediate Algebra,00,都错误,0,0,30,13,stop,stop,30,0,0.0,available
+3,491,test/prealgebra/1128.json,5,Prealgebra,01,仅大模型正确,0,1,72,64,stop,stop,72,0,0.0,available
+3,493,test/algebra/2779.json,5,Algebra,01,仅大模型正确,0,1,26,20,stop,stop,26,1,0.3333333333333333,available
+3,494,test/intermediate_algebra/1930.json,5,Intermediate Algebra,01,仅大模型正确,0,1,\frac{1}{2},\frac{1}{4},stop,stop,\frac{1}{2},1,0.3333333333333333,available
+3,497,test/geometry/561.json,5,Geometry,00,都错误,0,0,2,\frac{17}{2},stop,stop,2,1,0.3333333333333333,available
+3,498,test/intermediate_algebra/1508.json,5,Intermediate Algebra,01,仅大模型正确,0,1,1,-1,stop,stop,1,2,0.6666666666666666,available

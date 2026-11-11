@@ -1,0 +1,10 @@
+STEER MATH500 reproduction and literature report
+
+Includes code derived from helmsman12/STEER, pinned at
+04f5ad59bafa394b449f3e74e1b0529667a02cc7.
+The upstream Apache-2.0 license and component licenses are retained.
+See STEER_MATH500/UPSTREAM.json for upstream file provenance.
+
+Research papers, third-party figures and benchmark data remain attributed
+to their respective authors and sources. Their inclusion or citation does
+not assign the repository code license to those materials.

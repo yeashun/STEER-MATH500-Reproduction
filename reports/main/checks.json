@@ -1,0 +1,589 @@
+{
+  "dataset_sha256": "55e02317c57e6c22edc3acf444702e0653acbef8a8f49bfc58b77d6bfefc5693",
+  "selected_seeds": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "regrade_requested": true,
+  "runs": [
+    {
+      "method": "small",
+      "seed": 0,
+      "directory": "<PROJECT>/results/gpu7_small_full_01/seed_0/small",
+      "dataset_hash_matches": true,
+      "question_ids_and_content_match": true,
+      "saved_accuracy_matches": true,
+      "attention_backend_requested": "not_recorded",
+      "attention_backends_observed": [
+        "FLASH_ATTN"
+      ],
+      "backend_confirmed_by_log": true,
+      "cuda_launch_blocking": "not_recorded",
+      "budget_semantics": "baseline_generated_tokens",
+      "saved_rule_timeouts": 0,
+      "patience_stop_events": [],
+      "metrics": {
+        "num_questions": 500,
+        "correct": 375,
+        "rule_accuracy": 75.0,
+        "mean_flops_t": 1.712136,
+        "accuracy_per_flops": 43.80493138395548,
+        "small_used_tokens": 285356,
+        "small_discarded_tokens": 0,
+        "large_generated_tokens": 0,
+        "empty_answers": 1
+      },
+      "finish_reason_counts": {
+        "stop": 499,
+        "length": 1
+      },
+      "generation_error_answers": 0
+    },
+    {
+      "method": "large",
+      "seed": 0,
+      "directory": "<PROJECT>/results/gpu7_large_full_01/seed_0/large",
+      "dataset_hash_matches": true,
+      "question_ids_and_content_match": true,
+      "saved_accuracy_matches": true,
+      "attention_backend_requested": "not_recorded",
+      "attention_backends_observed": [
+        "FLASH_ATTN"
+      ],
+      "backend_confirmed_by_log": true,
+      "cuda_launch_blocking": "not_recorded",
+      "budget_semantics": "baseline_generated_tokens",
+      "saved_rule_timeouts": 0,
+      "patience_stop_events": [],
+      "metrics": {
+        "num_questions": 500,
+        "correct": 414,
+        "rule_accuracy": 82.8,
+        "mean_flops_t": 11.188716,
+        "accuracy_per_flops": 7.400312958162492,
+        "small_used_tokens": 0,
+        "small_discarded_tokens": 0,
+        "large_generated_tokens": 399597,
+        "empty_answers": 1
+      },
+      "finish_reason_counts": {
+        "stop": 465,
+        "length": 35
+      },
+      "generation_error_answers": 0
+    },
+    {
+      "method": "steer",
+      "seed": 0,
+      "directory": "<PROJECT>/results/gpu12_steer_full_01/seed_0/steer",
+      "dataset_hash_matches": true,
+      "question_ids_and_content_match": true,
+      "saved_accuracy_matches": true,
+      "attention_backend_requested": "not_recorded",
+      "attention_backends_observed": [],
+      "backend_confirmed_by_log": false,
+      "cuda_launch_blocking": "not_recorded",
+      "budget_semantics": "upstream_steer_prompt_inclusive",
+      "saved_rule_timeouts": 0,
+      "patience_stop_events": [
+        4
+      ],
+      "metrics": {
+        "num_questions": 500,
+        "correct": 389,
+        "rule_accuracy": 77.8,
+        "mean_flops_t": 3.984444,
+        "accuracy_per_flops": 19.525936366529432,
+        "small_used_tokens": 194732,
+        "small_discarded_tokens": 18150,
+        "large_generated_tokens": 96684,
+        "empty_answers": 1
+      },
+      "finish_reason_counts": {
+        "not_recorded": 500
+      },
+      "generation_error_answers": 0,
+      "routing": {
+        "mean_steps_per_question": 9.71,
+        "small_steps": 3518,
+        "large_steps": 1337,
+        "model_switches": 1162,
+        "questions_with_large_tokens": 464,
+        "large_fraction_of_all_generated_tokens": 0.312321120536493,
+        "discarded_fraction_of_all_generated_tokens": 0.0586304697544304,
+        "explicit_patience_flags": 0,
+        "questions_at_max_steps_boundary": 0
+      }
+    },
+    {
+      "method": "small",
+      "seed": 1,
+      "directory": "<PROJECT>/results/gpu7_small_full_01/seed_1/small",
+      "dataset_hash_matches": true,
+      "question_ids_and_content_match": true,
+      "saved_accuracy_matches": true,
+      "attention_backend_requested": "not_recorded",
+      "attention_backends_observed": [
+        "FLASH_ATTN"
+      ],
+      "backend_confirmed_by_log": true,
+      "cuda_launch_blocking": "not_recorded",
+      "budget_semantics": "baseline_generated_tokens",
+      "saved_rule_timeouts": 0,
+      "patience_stop_events": [],
+      "metrics": {
+        "num_questions": 500,
+        "correct": 372,
+        "rule_accuracy": 74.4,
+        "mean_flops_t": 1.660554,
+        "accuracy_per_flops": 44.8043243399492,
+        "small_used_tokens": 276759,
+        "small_discarded_tokens": 0,
+        "large_generated_tokens": 0,
+        "empty_answers": 1
+      },
+      "finish_reason_counts": {
+        "stop": 500
+      },
+      "generation_error_answers": 0
+    },
+    {
+      "method": "large",
+      "seed": 1,
+      "directory": "<PROJECT>/results/gpu7_large_full_01/seed_1/large",
+      "dataset_hash_matches": true,
+      "question_ids_and_content_match": true,
+      "saved_accuracy_matches": true,
+      "attention_backend_requested": "not_recorded",
+      "attention_backends_observed": [
+        "FLASH_ATTN"
+      ],
+      "backend_confirmed_by_log": true,
+      "cuda_launch_blocking": "not_recorded",
+      "budget_semantics": "baseline_generated_tokens",
+      "saved_rule_timeouts": 0,
+      "patience_stop_events": [],
+      "metrics": {
+        "num_questions": 500,
+        "correct": 397,
+        "rule_accuracy": 79.4,
+        "mean_flops_t": 10.6239,
+        "accuracy_per_flops": 7.473714925780551,
+        "small_used_tokens": 0,
+        "small_discarded_tokens": 0,
+        "large_generated_tokens": 379425,
+        "empty_answers": 1
+      },
+      "finish_reason_counts": {
+        "stop": 472,
+        "length": 28
+      },
+      "generation_error_answers": 0
+    },
+    {
+      "method": "steer",
+      "seed": 1,
+      "directory": "<PROJECT>/results/gpu12_steer_full_01/seed_1/steer",
+      "dataset_hash_matches": true,
+      "question_ids_and_content_match": true,
+      "saved_accuracy_matches": true,
+      "attention_backend_requested": "not_recorded",
+      "attention_backends_observed": [],
+      "backend_confirmed_by_log": false,
+      "cuda_launch_blocking": "not_recorded",
+      "budget_semantics": "upstream_steer_prompt_inclusive",
+      "saved_rule_timeouts": 0,
+      "patience_stop_events": [
+        1
+      ],
+      "metrics": {
+        "num_questions": 500,
+        "correct": 396,
+        "rule_accuracy": 79.2,
+        "mean_flops_t": 5.330344,
+        "accuracy_per_flops": 14.858328092896068,
+        "small_used_tokens": 147578,
+        "small_discarded_tokens": 16378,
+        "large_generated_tokens": 155236,
+        "empty_answers": 1
+      },
+      "finish_reason_counts": {
+        "not_recorded": 500
+      },
+      "generation_error_answers": 0,
+      "routing": {
+        "mean_steps_per_question": 9.5,
+        "small_steps": 2623,
+        "large_steps": 2127,
+        "model_switches": 1432,
+        "questions_with_large_tokens": 470,
+        "large_fraction_of_all_generated_tokens": 0.4863405097872127,
+        "discarded_fraction_of_all_generated_tokens": 0.051310809794731696,
+        "explicit_patience_flags": 0,
+        "questions_at_max_steps_boundary": 0
+      }
+    },
+    {
+      "method": "small",
+      "seed": 2,
+      "directory": "<PROJECT>/results/gpu7_small_full_01/seed_2/small",
+      "dataset_hash_matches": true,
+      "question_ids_and_content_match": true,
+      "saved_accuracy_matches": true,
+      "attention_backend_requested": "not_recorded",
+      "attention_backends_observed": [
+        "FLASH_ATTN"
+      ],
+      "backend_confirmed_by_log": true,
+      "cuda_launch_blocking": "not_recorded",
+      "budget_semantics": "baseline_generated_tokens",
+      "saved_rule_timeouts": 0,
+      "patience_stop_events": [],
+      "metrics": {
+        "num_questions": 500,
+        "correct": 367,
+        "rule_accuracy": 73.4,
+        "mean_flops_t": 1.705494,
+        "accuracy_per_flops": 43.037383889946256,
+        "small_used_tokens": 284249,
+        "small_discarded_tokens": 0,
+        "large_generated_tokens": 0,
+        "empty_answers": 1
+      },
+      "finish_reason_counts": {
+        "stop": 499,
+        "length": 1
+      },
+      "generation_error_answers": 0
+    },
+    {
+      "method": "large",
+      "seed": 2,
+      "directory": "<PROJECT>/results/gpu7_large_full_01/seed_2/large",
+      "dataset_hash_matches": true,
+      "question_ids_and_content_match": true,
+      "saved_accuracy_matches": true,
+      "attention_backend_requested": "not_recorded",
+      "attention_backends_observed": [
+        "FLASH_ATTN"
+      ],
+      "backend_confirmed_by_log": true,
+      "cuda_launch_blocking": "not_recorded",
+      "budget_semantics": "baseline_generated_tokens",
+      "saved_rule_timeouts": 0,
+      "patience_stop_events": [],
+      "metrics": {
+        "num_questions": 500,
+        "correct": 411,
+        "rule_accuracy": 82.2,
+        "mean_flops_t": 10.926104,
+        "accuracy_per_flops": 7.5232672140041865,
+        "small_used_tokens": 0,
+        "small_discarded_tokens": 0,
+        "large_generated_tokens": 390218,
+        "empty_answers": 1
+      },
+      "finish_reason_counts": {
+        "stop": 470,
+        "length": 30
+      },
+      "generation_error_answers": 0
+    },
+    {
+      "method": "steer",
+      "seed": 2,
+      "directory": "<PROJECT>/results/gpu12_steer_full_01/seed_2/steer",
+      "dataset_hash_matches": true,
+      "question_ids_and_content_match": true,
+      "saved_accuracy_matches": true,
+      "attention_backend_requested": "not_recorded",
+      "attention_backends_observed": [],
+      "backend_confirmed_by_log": false,
+      "cuda_launch_blocking": "not_recorded",
+      "budget_semantics": "upstream_steer_prompt_inclusive",
+      "saved_rule_timeouts": 0,
+      "patience_stop_events": [
+        5
+      ],
+      "metrics": {
+        "num_questions": 500,
+        "correct": 383,
+        "rule_accuracy": 76.6,
+        "mean_flops_t": 4.81529,
+        "accuracy_per_flops": 15.907660805475889,
+        "small_used_tokens": 180504,
+        "small_discarded_tokens": 18201,
+        "large_generated_tokens": 129395,
+        "empty_answers": 1
+      },
+      "finish_reason_counts": {
+        "not_recorded": 500
+      },
+      "generation_error_answers": 0,
+      "routing": {
+        "mean_steps_per_question": 9.366,
+        "small_steps": 2931,
+        "large_steps": 1752,
+        "model_switches": 1464,
+        "questions_with_large_tokens": 452,
+        "large_fraction_of_all_generated_tokens": 0.3943767144163365,
+        "discarded_fraction_of_all_generated_tokens": 0.05547394087168546,
+        "explicit_patience_flags": 0,
+        "questions_at_max_steps_boundary": 0
+      }
+    },
+    {
+      "method": "small",
+      "seed": 3,
+      "directory": "<PROJECT>/results/gpu7_small_full_01/seed_3/small",
+      "dataset_hash_matches": true,
+      "question_ids_and_content_match": true,
+      "saved_accuracy_matches": true,
+      "attention_backend_requested": "not_recorded",
+      "attention_backends_observed": [
+        "FLASH_ATTN"
+      ],
+      "backend_confirmed_by_log": true,
+      "cuda_launch_blocking": "not_recorded",
+      "budget_semantics": "baseline_generated_tokens",
+      "saved_rule_timeouts": 0,
+      "patience_stop_events": [],
+      "metrics": {
+        "num_questions": 500,
+        "correct": 373,
+        "rule_accuracy": 74.6,
+        "mean_flops_t": 1.637814,
+        "accuracy_per_flops": 45.5485177193503,
+        "small_used_tokens": 272969,
+        "small_discarded_tokens": 0,
+        "large_generated_tokens": 0,
+        "empty_answers": 0
+      },
+      "finish_reason_counts": {
+        "stop": 500
+      },
+      "generation_error_answers": 0
+    },
+    {
+      "method": "large",
+      "seed": 3,
+      "directory": "<PROJECT>/results/gpu7_large_full_01/seed_3/large",
+      "dataset_hash_matches": true,
+      "question_ids_and_content_match": true,
+      "saved_accuracy_matches": true,
+      "attention_backend_requested": "not_recorded",
+      "attention_backends_observed": [
+        "FLASH_ATTN"
+      ],
+      "backend_confirmed_by_log": true,
+      "cuda_launch_blocking": "not_recorded",
+      "budget_semantics": "baseline_generated_tokens",
+      "saved_rule_timeouts": 0,
+      "patience_stop_events": [],
+      "metrics": {
+        "num_questions": 500,
+        "correct": 408,
+        "rule_accuracy": 81.6,
+        "mean_flops_t": 10.457412,
+        "accuracy_per_flops": 7.8030778552093,
+        "small_used_tokens": 0,
+        "small_discarded_tokens": 0,
+        "large_generated_tokens": 373479,
+        "empty_answers": 1
+      },
+      "finish_reason_counts": {
+        "stop": 473,
+        "length": 27
+      },
+      "generation_error_answers": 0
+    },
+    {
+      "method": "steer",
+      "seed": 3,
+      "directory": "<PROJECT>/results/gpu12_steer_full_01/seed_3/steer",
+      "dataset_hash_matches": true,
+      "question_ids_and_content_match": true,
+      "saved_accuracy_matches": true,
+      "attention_backend_requested": "not_recorded",
+      "attention_backends_observed": [],
+      "backend_confirmed_by_log": false,
+      "cuda_launch_blocking": "not_recorded",
+      "budget_semantics": "upstream_steer_prompt_inclusive",
+      "saved_rule_timeouts": 0,
+      "patience_stop_events": [
+        2
+      ],
+      "metrics": {
+        "num_questions": 500,
+        "correct": 395,
+        "rule_accuracy": 79.0,
+        "mean_flops_t": 4.58647,
+        "accuracy_per_flops": 17.224575763059608,
+        "small_used_tokens": 167362,
+        "small_discarded_tokens": 18579,
+        "large_generated_tokens": 123958,
+        "empty_answers": 1
+      },
+      "finish_reason_counts": {
+        "not_recorded": 500
+      },
+      "generation_error_answers": 0,
+      "routing": {
+        "mean_steps_per_question": 8.968,
+        "small_steps": 2815,
+        "large_steps": 1669,
+        "model_switches": 1613,
+        "questions_with_large_tokens": 459,
+        "large_fraction_of_all_generated_tokens": 0.3999948370275477,
+        "discarded_fraction_of_all_generated_tokens": 0.05995179074472651,
+        "explicit_patience_flags": 0,
+        "questions_at_max_steps_boundary": 0
+      }
+    }
+  ],
+  "regrade_metrics": [
+    {
+      "method": "small",
+      "seed": 0,
+      "metrics": {
+        "num_samples": 500,
+        "num_scores": 500,
+        "timeout_samples": 0,
+        "empty_samples": 1,
+        "acc": 75.0
+      }
+    },
+    {
+      "method": "large",
+      "seed": 0,
+      "metrics": {
+        "num_samples": 500,
+        "num_scores": 500,
+        "timeout_samples": 0,
+        "empty_samples": 1,
+        "acc": 82.8
+      }
+    },
+    {
+      "method": "steer",
+      "seed": 0,
+      "metrics": {
+        "num_samples": 500,
+        "num_scores": 500,
+        "timeout_samples": 0,
+        "empty_samples": 1,
+        "acc": 77.8
+      }
+    },
+    {
+      "method": "small",
+      "seed": 1,
+      "metrics": {
+        "num_samples": 500,
+        "num_scores": 500,
+        "timeout_samples": 0,
+        "empty_samples": 1,
+        "acc": 74.4
+      }
+    },
+    {
+      "method": "large",
+      "seed": 1,
+      "metrics": {
+        "num_samples": 500,
+        "num_scores": 500,
+        "timeout_samples": 0,
+        "empty_samples": 1,
+        "acc": 79.4
+      }
+    },
+    {
+      "method": "steer",
+      "seed": 1,
+      "metrics": {
+        "num_samples": 500,
+        "num_scores": 500,
+        "timeout_samples": 0,
+        "empty_samples": 1,
+        "acc": 79.2
+      }
+    },
+    {
+      "method": "small",
+      "seed": 2,
+      "metrics": {
+        "num_samples": 500,
+        "num_scores": 500,
+        "timeout_samples": 0,
+        "empty_samples": 1,
+        "acc": 73.4
+      }
+    },
+    {
+      "method": "large",
+      "seed": 2,
+      "metrics": {
+        "num_samples": 500,
+        "num_scores": 500,
+        "timeout_samples": 0,
+        "empty_samples": 1,
+        "acc": 82.2
+      }
+    },
+    {
+      "method": "steer",
+      "seed": 2,
+      "metrics": {
+        "num_samples": 500,
+        "num_scores": 500,
+        "timeout_samples": 0,
+        "empty_samples": 1,
+        "acc": 76.6
+      }
+    },
+    {
+      "method": "small",
+      "seed": 3,
+      "metrics": {
+        "num_samples": 500,
+        "num_scores": 500,
+        "timeout_samples": 0,
+        "empty_samples": 0,
+        "acc": 74.6
+      }
+    },
+    {
+      "method": "large",
+      "seed": 3,
+      "metrics": {
+        "num_samples": 500,
+        "num_scores": 500,
+        "timeout_samples": 0,
+        "empty_samples": 1,
+        "acc": 81.6
+      }
+    },
+    {
+      "method": "steer",
+      "seed": 3,
+      "metrics": {
+        "num_samples": 500,
+        "num_scores": 500,
+        "timeout_samples": 0,
+        "empty_samples": 1,
+        "acc": 79.0
+      }
+    }
+  ],
+  "regrade_changed_records": 0,
+  "limitations": [
+    "模型路径相同不等于权重文件已做内容哈希核验；本脚本不读取大权重。",
+    "请求后端与实际后端不同；无初始化日志的运行无法确认实际后端。",
+    "STEER 未完整保存逐题停止原因；未记录 patience 标记不能证明未触发。",
+    "STEER 的预算包含 prompt，baseline 的预算只限制生成 token，不能称为严格等预算对照。",
+    "重新评分使用同一规则评测器，不是独立正确性证明或 xVerify；超时可能造成变化。",
+    "同一题目的跨 seed 重复不构成独立新题目；标准差按 seed 均值计算。"
+  ]
+}
