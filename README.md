@@ -2,7 +2,6 @@
 
 围绕 AAAI 2026 论文 *Confidence-Guided Stepwise Model Routing for Cost-Efficient Reasoning*，整理 Qwen2.5-Math **1.5B / 7B** 在 **MATH500** 上的复现代码、结果分析与中文汇报。
 
-这是个人复现项目。上游固定版本：`04f5ad59bafa394b449f3e74e1b0529667a02cc7`；范围为一个模型对与一个基准，尚未完成全论文、多基准或 xVerify 结果复现。
 
 ## 阅读入口
 
